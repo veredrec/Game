@@ -70,8 +70,7 @@
   },
   "g0": {
     "story":
-      "You decide to ignore Doc’s sarcasm. There are more important things to do, and you have no time or mind to his useless comments. He might be a good doctor, but spending so much time with him in close quarters is a bit too much for both of you. The ship’s synth Valkyrie, jumps in instead. “You know, Doc, I’ve seen a beautiful ship. I even have recordings in my video feed. Do you want to see it?”. Butterfly, who’s just passing you, smiles at you. “Val is so cute, don’t you think?” she whispers.
-      Before you can respond, Jessica interrupts, a bit exasperated. “Val, we don’t have time for that now. Finish your job, you can talk about VR fish once we finish the mission.” You turn to Butterfly, who shrugs. A few more minutes pass as you finish the last preparations and re-check the comms for the third time today. You then go help Butterfly load her own material onto the ship.",
+      "You decide to ignore Doc’s sarcasm. There are more important things to do, and you have no time or mind to his useless comments. He might be a good doctor, but spending so much time with him in close quarters is a bit too much for both of you. The ship’s synth Valkyrie, jumps in instead. “You know, Doc, I’ve seen a beautiful ship. I even have recordings in my video feed. Do you want to see it?”. Butterfly, who’s just passing you, smiles at you. “Val is so cute, don’t you think?” she whispers. Before you can respond, Jessica interrupts, a bit exasperated. “Val, we don’t have time for that now. Finish your job, you can talk about VR fish once we finish the mission.” You turn to Butterfly, who shrugs. A few more minutes pass as you finish the last preparations and re-check the comms for the third time today. You then go help Butterfly load her own material onto the ship.",
     "option1": {
       "option": "Finish preparations",
       "next": "i0"
