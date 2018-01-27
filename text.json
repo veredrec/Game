@@ -1,0 +1,9 @@
+{
+  "a0": {
+    "story": "The Salvation's thrusters come to a stop.",
+    "option1": {
+      "option": "Yes, captain",
+      "next": "a0"
+    }
+  }
+}
