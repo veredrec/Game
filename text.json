@@ -87,14 +87,14 @@
 		}
 	},
 
-  "s0h": {
+	"s0h": {
 		"summary": "Helping Butterfly",
 		"story": "You quickly help Butterfly load her equipment onto the Lander. You both work efficiently, organizing things according to well-practiced drills. A few minutes later, Jessica calls you both on the internal communications system. \"EZ, Butterfly, status report?\"",
 		"option1": {
 			"option": "\"We're done, commander!\"",
 			"next": "s0j"
 		}
-  },
+	},
 
 	"s0i": {
 		"summary": "Lander landing",
