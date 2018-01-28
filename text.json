@@ -96,7 +96,6 @@
     }
   },
 
-
   "s0i": {
     "summary": "Lander landing",
     "story":
@@ -112,7 +111,7 @@
     "option3": {
       "option": "Remain silent.",
       "next": "s0k"
-    },
+    }
   },
 
   "s0j": {
@@ -122,7 +121,7 @@
     "option1": {
       "option": "Unfasten your safety belt",
       "next": "s1"
-    },
+    }
   },
 
 "s0k": {
@@ -133,7 +132,7 @@
     "option1": {
       "option": "Unfasten your safety belt",
       "next": "s1"
-    },
+    }
   },
 
 "s1": {
@@ -147,7 +146,7 @@
     "option2": {
       "option": "\"Actually, I should help Val setting up the antenna.\"",
       "next": "s1b"
-    },
+    }
   },
 
 "s1a": {
@@ -162,7 +161,7 @@
     "option2": {
       "option": "\"I didn’t expect it to be so foreign.\"",
       "next": "s1d"
-    },
+    }
   },
 
 "s1b": {
@@ -173,7 +172,7 @@
     "option1": {
       "option": "\"Yes, Jessica.\"",
       "next": "s1e"
-    },
+    }
   },
 
   "s1c": {
@@ -183,7 +182,7 @@
     "option1": {
       "option": "Reach the base and send the transmission.",
       "next": "s1e"
-    },
+    }
   },
 
   "s1d": {
@@ -193,7 +192,7 @@
     "option1": {
       "option": "Reach the base and send the transmission.",
       "next": "s1e"
-    },
+    }
   },
 
   "s1e": {
@@ -203,7 +202,7 @@
     "option1": {
       "option": "\"Second transmission sent, everyone. Congratulations\"",
       "next": "s1f"
-    },
+    }
   },
 
   "s1f": {
@@ -213,7 +212,7 @@
     "option1": {
       "option": "Get into the Rover",
       "next": "s1g"
-    },
+    }
   },
 
   "s1g": {
@@ -228,7 +227,7 @@
     "option2": {
       "option": "Remain silent.",
       "next": "s1i"
-    },
+    }
   },
 
   "s1h": {
@@ -238,7 +237,7 @@
     "option1": {
       "option": "Listen to Butterfly’s report.",
       "next": "s2"
-    },
+    }
   },
 
   "s1i": {
@@ -248,7 +247,7 @@
     "option1": {
       "option": "Listen to Butterfly’s report.",
       "next": "s2"
-    },
+    }
   },
 
   "s2": {
@@ -262,7 +261,7 @@
     "option2": {
       "option": "\"I agree, this is too risky. Let’s return to camp and come back after the storm.\"",
       "next": "s2g"
-    },
+    }
   },
 
   "s2a": {
@@ -273,7 +272,7 @@
     "option1": {
       "option": "Scan the object",
       "next": "s2b"
-    },
+    }
   },
 
   "s2b": {
@@ -288,7 +287,7 @@
     "option2": {
       "option": "\"We can still go check that hole if we hurry, and if we tell Olli to come pick us up\"",
       "next": "s2d"
-    },
+    }
   },
 
   "s2c": {
@@ -298,7 +297,7 @@
     "option1": {
       "option": "Hunker down in the Rover",
       "next": "s2e"
-    },
+    }
   },
 
   "s2d": {
@@ -308,7 +307,7 @@
     "option1": {
       "option": "Hunker down in the Rover",
       "next": "s2f"
-    },
+    }
   },
 
   "s2e": {
@@ -318,7 +317,7 @@
     "option1": {
       "option": "\"Come in Doc\"",
       "next": "s3a"
-    },
+    }
   },
 
   "s2f": {
@@ -328,7 +327,7 @@
     "option1": {
       "option": "\"Come in Doc\"",
       "next": "s3a"
-    },
+    }
   },
 
   "s2g": {
@@ -339,7 +338,7 @@
     "option1": {
       "option": "Take a last look at the storm with your eyes",
       "next": "s2h"
-    },
+    }
   },
 
   "s2h": {
@@ -349,7 +348,7 @@
     "option1": {
       "option": "Go outside.",
       "next": "s3"
-    },
+    }
   },
 
   "s3": {
@@ -359,7 +358,7 @@
     "option1": {
       "option": "You head towards the garage module",
       "next": "s3b"
-    },
+    }
   },
 
   "s3a": {
@@ -370,7 +369,7 @@
     "option1": {
       "option": "Keep driving towards the base.",
       "next": "s3c"
-    },
+    }
   },
 
   "s3b": {
@@ -385,7 +384,7 @@
     "option2": {
       "option": "\"We have to keep our calm.\"",
       "next": "s3e"
-    },
+    }
   },
 
   "s3c": {
@@ -399,7 +398,7 @@
     "option2": {
       "option": "\"We have to stay calm everyone.\"",
       "next": "s3e"
-    },
+    }
   },
 
   "s3d": {
@@ -413,7 +412,7 @@
     "option2": {
       "option": "Remain silent.",
       "next": "s3g"
-    },
+    }
   },
 
   "s3e": {
@@ -427,9 +426,8 @@
     "option2": {
       "option": "Remain silent.",
       "next": "s3g"
-    },
+    }
   },
-
 
   "s3f": {
     "summary": "PC silences Olli.",
@@ -442,7 +440,7 @@
     "option2": {
       "option": "Don't volunteer and stay in camp instead.",
       "next": "s4a"
-    },
+    }
   },
 
   "s3g": {
@@ -456,7 +454,7 @@
     "option2": {
       "option": "Don't volunteer and stay in camp instead.",
       "next": "s4a"
-    },
+    }
   },
 
   "s4": {
@@ -467,7 +465,7 @@
     "option1": {
       "option": "\"Don’t worry, I know what I’m doing!\"",
       "next": "s4e"
-    },
+    }
   },
 
   "s4a": {
@@ -480,7 +478,7 @@
     "option1": {
       "option": "\"Sure thing, Jessica\"" ,
       "next": "s4b"
-    },
+    }
   },
 
   "s4b": {
@@ -490,7 +488,7 @@
     "option1": {
       "option": "\"Yes, I'm getting the entire sonar map on my screen here\"" ,
       "next": "s4c"
-    },
+    }
   },
 
   "s4c": {
@@ -502,7 +500,7 @@
     "option1": {
       "option": "You wait impatiently for the results of the image." ,
       "next": "s4d0"
-    },
+    }
   },
 
   "s4d0": {
@@ -515,7 +513,7 @@
     "option1": {
       "option": "Shit." ,
       "next": "s4d1"
-    },
+    }
   },
 
   "s4d1": {
@@ -528,7 +526,7 @@
     "option1": {
       "option": "Prepare to play everything for the meeting." ,
       "next": "s5"
-    },
+    }
   },
 
   "s4e": {
@@ -543,7 +541,7 @@
     "option2": {
       "option": "Take the photos as Jessica commands.",
       "next": "s4e2"
-    },
+    }
   },
 
   "s4e1": {
@@ -553,7 +551,7 @@
     "option1": {
       "option": "Look inside the Rover.",
       "next": "s4f"
-    },
+    }
   },
 
   "s4e2": {
@@ -564,7 +562,7 @@
     "option1": {
       "option": "Look inside the Rover",
       "next": "s4f"
-    },
+    }
   },
 
   "s4f": {
@@ -574,7 +572,7 @@
     "option1": {
       "option": "Go to the operation room",
       "next": "s5"
-    },
+    }
   },
 
   "s5": {
@@ -585,7 +583,7 @@
     "option1": {
       "option": "\"What about the cavern hall image?\" You ask." ,
       "next": "s5a"
-    },
+    }
   },
 
   "s5a": {
@@ -595,7 +593,7 @@
       "option1": {
         "option": "\"Are you're saying that we are being hunted, captain?\"" ,
         "next": "s5b"
-      },
+      }
     },
 
   "s5b": {
@@ -610,7 +608,7 @@
     "option2": {
       "option": "\"We can't just go killing aliens we know nothing about. This might have major consequences!\"" ,
       "next": "s5d"
-    },
+    }
   },
 
   "s5c": {
@@ -625,7 +623,7 @@
     "option1": {
       "option": "You load the rifle blasters onto the Rover.",
       "next": "s5e"
-    },
+    }
   },
 
   "s5d": {
@@ -638,9 +636,9 @@
       \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go. Load the backup Rover as well.\"
       Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
     "option1": {
-      "option": "You load the rifle blasters onto the backup Rover." ,
+      "option": "You load the rifle blasters onto the backup Rover.",
       "next": "s5e"
-    },
+    }
   },
 
   "s5e": {
@@ -655,7 +653,7 @@
     "option2": {
       "option": "\"Sounds like a solid plan. Let's do this!\"",
       "next": "s5f"
-    },
+    }
   },
 
   "s5f": {
@@ -670,7 +668,7 @@
     "option2": {
       "option": "\"What's wrong, Doc?\"",
       "next": "s5g"
-    },
+    }
   },
 
   "s5g": {
@@ -686,7 +684,7 @@
     "option2": {
       "option": "\"We'll continue towards the hall Doc, neutralize the alien, then head back towards you. Stay safe and keep Juan under control.?\"",
       "next": "s17"
-    },
+    }
   },
 
   "s6": {
@@ -696,7 +694,7 @@
     "option1": {
       "option": "\"What the...\"",
       "next": "s6a"
-    },
+    }
   },
 
   "s6a": {
@@ -711,7 +709,7 @@
     "option2": {
       "option": "Head into the Rover and drive back to the Lander",
       "next": "7"
-    },
+    }
   },
 
   "s6b": {
@@ -721,7 +719,7 @@
     "option1": {
       "option": "\"Damn. We gotta stop her!\"",
       "next": "s7"
-    },
+    }
   },
 
   "s7": {
@@ -732,7 +730,7 @@
     "option1": {
       "option": "\"We'll be ready for her when she comes\"",
       "next": "s8"
-    },
+    }
   },
 
   "s8": {
@@ -742,7 +740,7 @@
     "option1": {
       "option": "Load the blaster, prepare yourself and enter the operations room.",
       "next": "s9"
-    },
+    }
   },
 
   "s9": {
@@ -752,6 +750,6 @@
     "option1": {
       "option": "",
       "next": "s10"
-    },
+    }
   }
 }
