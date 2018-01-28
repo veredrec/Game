@@ -492,7 +492,7 @@
   "option1": {
     "option": "You wait impatiently for the results of the image." ,
     "next": "s4d0"
-  },
+  }
 },
 
 "s4d0": {
@@ -502,7 +502,7 @@
   "option1": {
     "option": "Shit." ,
     "next": "s4d1"
-  },
+  }
 },
 
 "s4d1": {
