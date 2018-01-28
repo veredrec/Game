@@ -50,6 +50,8 @@ function checkEnd(nextStory) {
 
 // Event listeners for every option
 $('#option1').click(function() {
+  var gameMusic = new Audio('./assets/audio/game.mp3');
+  gameMusic.play();
   chosenOption = this.id;
   nextStory = currentText[chosenOption].next;
   checkEnd(nextStory);
