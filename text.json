@@ -2,9 +2,9 @@
   "a00": {
     "summary": "Opening paragraph",
     "story":
-      "The Salvation’s thrusters come to a stop in orbit around planet Ross 128 b below. The planet fills the large simu-window on the bridge just as the last notes from Justin Bieber’s hit \"Sorry\" fade, an unfortunate concession the rest of the crew made in exchange for getting one of the best pilots alive today. \"Well done, Hero!\", Jessica, the commanding officer of the Hi <a href=\"http://www.google.com\">My name</a> is Vered ship exclaims. \"Now let’s see whether this planet could be humanity’s next home. We’re all leaving in six hours. In the meanwhile,\n \"Butterfly: find us a good place to land. I want an open plain, few rocks, as clear as possible. We’ll start exploring there. Olli: please recheck the Rover, I want no malfunctions on the surface. Doc, make sure you have everything you need to take care of us down there if anything going wrong.\".",
+      "The Salvation’s thrusters come to a stop in orbit around planet Ross 128 b below. The planet fills the large simu-window on the bridge just as the last notes from Justin Bieber’s hit \"Sorry\" fade, an unfortunate concession the rest of the crew made in exchange for getting one of the best pilots alive today. \"Well done, Hero!\", Jessica, the commanding officer of the ship exclaims. \"Now let’s see whether this planet could be humanity’s next home. We’re all leaving in six hours. In the meanwhile, Butterfly: find us a good place to land. I want an open plain, few rocks, as clear as possible. We’ll start exploring there. Olli: please recheck the Rover, I want no malfunctions on the surface. Doc, make sure you have everything you need to take care of us down there if anything going wrong. I don’t want any MDD style risks.\" She turns to you. \"EZ, check all comms and send Joint Fleet the encoded transmission we’ve drafted. Attach a few hi-res pics of the planet’s surface.\"",
     "option1": {
-      "option": "Yes, captain",
+      "option": "\"Yes, captain\"",
       "next": "a0"
     }
   },
@@ -89,3 +89,505 @@
     }
   }
 }
+
+------------------------------------------------
+0i
+After what seems to take forever you are all ready and enter the Lander. Juan, the pilot, shuffles another series of Justin Bieber songs in preparation for his flight. Thanking Joint Command for the separate audio feeds in the Landers - since you have much less responsibilities until landing on the surface, you squelch his music feed and instead listen to your own music, which calms you a bit during the rocky descent. You look through the window, observing how the ground grows larger and the sky becomes green blue, a color that reminds you of the scuba VR sim for a moment, until you look at the ground and realize that there is no running water anywhere in sight\".
+
+<\"Seems very dry here\">[0j]
+<\"Great. Just what we needed. Another desert planet, only this one’s yellow-green\">[0j]
+<Remain silent>[0k]
+
+0j
+\"It just seems dry from above,\" Butterfly says apologetically, trying to cheer everyone up. \"My instruments show that there’s plenty of water only a few meters underground in this area. I’m sure we could grow some Old Earth plants here.\" Oliver, the mission’s mechanic and driver, snickers, \"You can grow whatever you want, Butterfly. I’m out of here as soon as we’re done. Red Price or no Red Price, I’m going back to retire in Mars. The desert I know is better than this shithole\".
+<>[0l]
+
+Hero, who has been singing along - more like screaming - semi-muted in the background bursts into the conversation. \"30 seconds for impact. Get ready!\" You check that your belt is fastened and move into the \"brace\" position. As Hero counts down, you can’t help but try to figure out why these Landers still seem to crash rather than land as they should. Fortunately, Hero is a true expert and minimizes the shocks and nausea you experience as you decelerate and land.
+
+<Unfasten your safety belt>[1]
+
+0k
+Jessica looks around. \"What do we know about the water in this area Butterfly?\", she asks, clearly having the same questions in mind as you do. Lily’s smile beams with optimism. \"It just seems dry from above,\" Butterfly says apologetically, trying to cheer everyone up. \"My instruments show that there’s plenty of water only a few meters underground in this area. I’m sure that with a little work we could grow some Old Earth plants here in a few weeks.\" Oliver, the mission’s mechanic and driver, snickers, \"You can grow whatever you want, Butterfly. I’m out of here as soon as we’re done. Red Price or no Red Price, I’m going back to retire in Mars. The desert I know is better than this shithole\".
+
+Hero, who has been singing along - more like screaming - semi-muted in the background bursts into the conversation. \"30 seconds for impact. Get ready!\" You check that your belt is fastened and move into the \"brace\" position. As Hero counts down, you can’t help but try to figure out why these Landers still seem to crash rather than land as they should. Fortunately, Hero is a true expert and minimizes the shocks and nausea you experience as you decelerate and land.
+
+<Unfasten your safety belt>[1]
+
+1
+You follow Jessica and Val out of the Lander, allowing your eyes a few moments to get used to the bright yellow-green sky. Jessica’s voice sounds clear on the internal communication system. \"Okay everyone. We’re in what has a great chance to be our next home. Let’s move on and build it now. Hero and Olli, unload the base module and deploy it. Doc, get med-bay up and running asap. Butterfly, set up the tests you need, I want us to drill and test the water quickly. Val, you set up the tower and antenna. EZ, care to join me and take a walk to that small hill?\" she gestures at a small mound of dirt and small stones several hundred feet away.
+
+<\"Sure, captain\">[1a]
+<\"Actually, I should help Val setting up the antenna.\">[1b]
+
+1a
+Jessica nods with a smile and the two of you pick blasters - just in case something happens - and begin walking towards the hill. \"You know EZ, after all the training, I still can’t believe we’re actually here on 128 b., looking at this alien landscape\". She stops, bending down to what seems to be a small coral like plant that grows on land. It’s about six inches high, branching out horizontally from a single root. \"Who knows what all these life forms would end up being for humanity\". Jessica takes out her NetPad, then scans the small plant, immediately uploading the data to the Lander’s computers. \"That’s so neat captain!\", Butterfly’s voice comes over the communication system. \"I can’t wait to discover this world’s other secrets!\". Jessica smiles at you and responds, \"I’m sure we’ll all have enough time to explore, Butterfly.\" You eventually climb the hill, taking in the alien view of a red sun against the yellow-green background. You both stand silently for a few moments.
+
+<\"Can you believe this place would be packed with people in less than a decade?\">[1c]
+<\"I didn’t expect it to be so foreign.\">[1d]
+
+1b
+Jessica looks at you silently, then nods. A silent message appears on your helmet screen. \"That makes sense, I understand. Make sure the synth isn’t malfunctioning and that everything is in order\". You assure Jessica, who continues alone to the hill. You spend the next half hour or so deploying the antenna tower. Your training pays off and it is surprisingly easy to set up. Val works efficiently next to you, setting up the auto-turret that will fire at any non human biological form that enters a perimeter. \"There’s never too much security,\" you think to yourself. Every few moments, your helmet screen flashes with new discoveries your squadmates find on the planet. Most of these are small coral-like plants that sprout from the hard group, although Doc manages to find a mobile life form - a small insect-like creature, probably a quarter of an inch in size. \"Alien life in its finest\", the doctor notes drily. Butterfly, always the optimistic, quickly answers, \"You know, up until a few decades ago, this would have been considered one of the most important discoveries in the history of humankind!\". Olli blows some air into the comms. \"Yeah, who would have known we live in a universe full of tiny bugs, forgive me if I don’t find that mindshattering.\"
+
+\"You guys are hopeless,\" Butterfly responds with a grin animated emoji. You roll your eyes.
+
+A few moments later, Jessica returns to camp. \"EZ, is the second transmission all set?\"
+
+<\"Yes, captain\">[1e]
+
+1c
+Jessica laughs. \"Yeah EZ, We’re probably seeing it at its best. First row tickets to the future I guess. Let’s go back to the others and make sure we’re all set to send the second transmission and begin Phase 2\". You nod and follow her back to the base, your minds occupied with thoughts about humanity’s battered past and precarious future.
+
+<Reach the base and send the transmission.>[1e]
+
+1d
+Jessica nods. \"Truth be told, me neither. I hoped it wouldn’t be another Mars. Do you still have Earth dreams? I do. I keep thinking about what we lost back there. How could we have been so careless?\" her voice trails off. A couple of moments later, she starts again \"What’s gone is gone, no use in mourning the past anymore. Let’s go back to the others and make sure we’re all set to send the transmission and begin Phase 2\". You nod and follow her back to the base, your minds occupied with thoughts about humanity’s battered past and precarious future.
+
+<Reach the base and send the transmission.>[1e]
+
+1e
+You make sure the transmission is in order, read it again and attach the video and data feeds from the mission so far, then relay it through Salvation back at Earth. The amplifiers and accelerators along the way to the Solar System cannot stay online for long - it would take too much energy, and each petabyte of data sent is extremely expensive. Because of this, each transmission must be performed manually and receive the approval of the mission commander before firing it back.
+
+<\"Second transmission sent, everyone. Congratulations\">[1f]
+
+1f
+\"Keep on the good work team. We’ll continue as planned. First recon expedition is leaving on the Rover in 15 min. Olli and EZ, you’re on. Everyone else, keep as planned.\" We’re going to have another 12 hours of daylight here, so two of you can get some sleep. We have big plans for tomorrow. Jessica out.\"
+
+The rest of the squad sends their agreement emojis and animations on the internal comm system. Things seem to be going extremely well so far, with no issue. You can only hope that this would continue. The alien environment may seem foreign but doesn’t seem to be as hostile as Mars.
+
+You go make sure the communication systems are in place again and meet Olli and Jessica at the Rover.
+
+<Get into the Rover>
+
+1g
+Olli, mechanic and driver extraordinaire, drives the Rover eastward between the small piles of rock and sand, which stretch on into the horizon. Butterfly’s voice sounds on the intercom. \"Continue four and a half clicks east, you’ll find a larger bush-sized organic object. Probably a larger version of one of those small coral-like plants. Or so it seems on my model\". Olli readjusts his navigating system, and the rover adjusts its course towards the point of interest. \"So how did you get your nickname, Infinity? I don’t think you’ve ever told me,\" Olli asks, trying to ignite a conversation. \"It’s a reference to humanity’s fate, Olli\", Jessica answers. \"I believe that we can and should reach infinity. That’s why I’m here.\" Olli shakes his head. \"I never understood why we should do that. Why not stay in Mars now? We’ve found a new home there.\"
+
+\"But think more widely… we already destroyed one Earth. What prevents Mars from being the next one?\", Jessica begins to answer when Butterfly’s voice comes back on the comms. \"Captain, there’s something wierd. My last scan of the planet’s surface found some new point. I’m looking at the previous scan and it wasn’t there. It’s about ten feet in size, much larger than anything we’ve found so far. I’m marking its location on your map.\"
+
+<\"What is it Butterfly?\" you jump in.>[1h]
+<\"Remain silent>[1i]
+
+1h
+Jessica looks at you, alert and waiting for an answer, nodding at Olli to turn the rover to the new green point that appears on the map. Butterfly’s voice comes over again, \"I don’t know captain. My 3D model shows it as some kind of constructed structure. But who could have constructed it? I’ve seen no movement on the planet surface, and my scanner would capture anything larger than 6 inches!\"
+
+Jessica looks concerned. \"This isn’t necessarily a bad sign, just one that this planet has more surprises that we had originally expected. How long till we get there Olli?\"
+
+\"30 minutes captain.\"
+
+\"Very well. Butterfly, how does the weather look like in that area?\"
+
+<Listen to Butterfly’s report>[1j]
+
+1i
+Jessica becomes more alert. \"Tell us more Butterfly, and send me the data, \" she says while clicking on her NetPad and uploading information to Salvation’s computers. She nods at Olli to turn the rover to the new green point that appears on the map. Butterfly’s voice comes over again, \"I don’t know captain. My 3D model shows it as some kind of constructed structure. But who could have constructed it? I’ve seen no movement on the planet surface, and my scanner would capture anything larger than 6 inches!\"
+
+Jessica looks concerned. \"This isn’t necessarily a bad sign, just one that this planet has more surprises that we had originally expected. How long till we get there Olli?\"
+
+\"30 minutes captain.\"
+
+\"Very well. Butterfly, how does the weather look like in that area?\"
+
+<Listen to Butterfly’s report>[2]
+
+
+2
+Butterfly sounds a bit worried. \"There’s a large storm coming in from that direction to our base. Estimated time arrival at the structure is one hour. It would take you… about an hour to get from the structure back to base. Jessica, if you examine the structure you won’t be able to return to base in time and will haveto weather the storm in the open. Based on my instruments, the storm won’t be too powerful, but I would strongly recommend that you not move the rover during it unless you absolutely have to\".
+
+Jessica looks at you both. \"Olli, stop the Rover. Both of you - what do you think?\"
+
+Olli jumps in before you, \"Well you know my opinion captain. No reason to risk ourselves out here in the open. Let’s head back to camp and weather the storm there.\"
+
+<\"The structure appeared so it could also disappear. This might be out only chance to learn more about this mysterious occurance. Let’s go investigate.\">[2a]
+<\"I agree, this is too risky. Let’s return to camp and come back after the storm.\">[2g]
+
+2a
+Jessica nods. \"My thoughts exactly. Take us there Olli\". Olli is clearly reluctant, but guides the Rover on towards the mysterious structure. The next half hour is mostly spent in quiet tension, with each of you tracking the storm’s movement towards the structure. When you get close enough, you start staring at the structure, first a small brownish dot on the planet’s otherwise flat surface, as it grows. The Rover finally reaches the area and you and Jessica disembark. \"Stay inside Olli, we might need to leave quickly.\"
+
+Olli is clearly relieved, and stays inside, leaving the door open for you to return quickly if need be. You and Jessica examine the structure. It seems like a hut from Old Earth, built out of what seems to be some plant-like material but softer than the coral-like material you saw earlier. \"Seems like a cage, doesn’t it?\" You point out the obvious.
+
+Jessica breathes slowly, circling around the structure. \"Yes, but what would it catch? And why is it so large? We haven’t identified anything so big on the surface.\"
+
+<Scan the object>[2b]
+
+2b
+You take out your scanner and scan the object. It is clearly organic, but not alive anymore. \"This doesn’t make sense,\" Jessica exclaims. \"How could this get here?\" You look around, noticing a faint form on the ground. \"Look at that, Jessica,\" you point at the strange tracks. In a couple of seconds, she is all around them, pointing her own NetPad and tracing them. A thin blue line appears on your helmet, showing you what seems to be the direction towards which the tracks - really not more than a few thin lines in the sand - lead.
+
+\"Butterfly, check this out,\" Jessica goes on the internal comm. \"Where do these tracks lead?\" Butterfly takes a few seconds, then answers. \"There seems to be what might be a shadow, or a thin hole in the ground a few hundred meters from you. I wouldn’t go there though, the storm is almost upon you.\"
+
+You turn around and see the storm itself, a massive dark front covering the entire landscape and advancing to your direction. \"I thought this was to be a small storm,\" Jessica mutters to herself.
+
+<\"Let’s take shelter in the Rover. No use to move it now and it’s safer.\">[2c]
+<\"We can still go check that hole if we hurry, and if we tell Olli to come pick us up\">[2d]
+
+2c
+Jessica looks at you, torn between your sound advice and her own curiosity. \"That’s probably good advice. You’re right. Let’s take shelter.\" She stays standing for a moment, looking at the possible hole’s direction, then shrugs and turns back to the Rover. You enter and Olli finishes taking all the systems offline. \"It’d be best for us to avoid harming any of the electrical systems and depend on our suit systems inside the Rover.\"
+
+<Hunker down in the Rover>[2e]
+
+2d
+Jessica smiles, obviously curious just as you are. You hurry towards the cave-like feature, reaching it a few moments before Olli and the Rover. The storm is very close now. It is definitely a mostly horizontal hole in the terrain, in what reminds you of a sewer drain leading into the ground. You can see traces of the tracks - those strange lines in the sand - leading straight into it. The entrance is rather small - maybe a foot high and two feel wide, making it easy to miss from up in space.
+
+You reluctantly move closer to the hole, using your suit’s built-in flashlight to try and discern anything inside. Jessica kneels next to you. \"It looks deep,\" she points out calmly. Let’s continue exploring after the storm. We only have a minute or two left\". You tear yourself from the hole and follow Jessica to the Rover.
+
+<Hunker down in the Rover>[2f]
+
+
+2e
+You hunker down for several hours of loud noise and shaking. You manage to get some sleep, and other than that the storm passes with few discernible effects. The storm eventually subsides while there is still daylight outside, which confuses your biological clock.
+
+\"That wasn’t so bad Captain,\" Olli says.
+\"No, I expected worse. Let’s go outside and check the hole again,\" Jessica commands.
+
+As you open the doors it is clear that the storm erased the previous landscape features, leaving no trace of the hole. Disappointed, you head back to the Rover and begin the hour-long drive back to camp.
+
+The radio suddenly wakes up, startling all of you. Doc is on the line.
+
+<\"Come in Doc\">[3a]
+
+2f
+You hunker down for several hours of loud noise and shaking. You manage to get some sleep, and other than that the storm passes with few discernible effects. The storm eventually subsides while there is still daylight outside, which confuses your biological clock.
+
+\"That wasn’t so bad Captain,\" Olli says.
+\"No, I expected worse. Let’s go check the hole now with the equipment we have in the Rover,\" Jessica commands.
+
+Olli turns the Rover towards the hole, but as you reach the area you realize that the storm moved enough sand around, erasing the previous features. Disappointed, you head back to the Rover and begin the hour-long drive back to camp.
+
+The radio suddenly wakes up, startling all of you. Doc is on the line
+
+<\"Come in Doc\">[3a]
+
+
+2g
+Return to camp and weather the storm there.
+Jessica shakes her head in a mixture of disappointment and regret. \"This may have been a unique opportunity to learn something new about this place, but I won’t risk our lives if there are other options. Take us back to base Olli\". The driver, clearly relieved, changes course and begins driving to base.
+
+The rest of the drive continues silently, with Olli texting you through the silent message system, \"THX, IOU1\", winking at you when Jessica’s attention is elsewhere. You shake your head at him and busy yourself with examining the structure from Butterfly’s images, hoping that the strange construction would remain in place later as well.
+
+After almost an hour of driving you reach back to the base. The storm has been following you, appearing like a tall dark wave that advances after you, threatening to wash over the small base you’ve constructed.
+
+Olli proficiently parks the Rover inside the small hanger module, then moves with the others into the command module, the safest place in the small camp, where you all expect to find safety.
+
+<Take a last look at the storm with your eyes>
+
+2h
+Weather the storm
+The storm is now huge, making you feel helpless and small while facing the wrath of this foreign environment. \"Is everything other than life support offline in preparation for the storm?\" asks Jessica. \"Sure, we’ve turned off everything,\" Butterfly responds quickly.
+
+\"It’d be best if we stay inside our suits, just in case,\" Doc suggests.
+
+\"Good idea. Let’s not take any unnecessary risks,\" Jessica agrees. \"EZ, make sure the antenna is folded, we don’t want to lose our communication channel.\" You nod, \"We’re all set, Jessica\".
+
+The storm eventually washes over the camp, blowing around with force but doing little damage to the squad and the equipment. You even take turns sleeping through the storm. Finally, the few instruments still working and your communication to the Salvation above notify you that the storm has completely passed and you go outside to assess the damage.
+
+<Go outside>[3]
+
+3
+Checking base for damage.
+You first go towards the antenna with your NetPad, running automated checks as it unfolds while you check visually for any sign of damage. Luckily, everything seems in shape. You notify the rest of the team through the status application that everything is back online, and resume uploading data to the Salvation.
+
+Doc’s voice interrupts your work. \"Guys, you have to come see this. Behind the garage module, now.\" The urgency in his voice is unsettling.
+
+<You head towards the garage module>[3b]
+
+3a
+Doc tells about structure
+\"Guys, the structure you’re next to, there’s a copy of it right here in the base,\" Doc comes in urgently, his voice nervous.
+Olli blurts out \"What do you mean, in the base?! We’re right next to it here!\"
+\"Calm down, everyone!\" Jessica takes command. \"Doc, send us pictures. Butterfly, get us some satellite images, now. Olli, EZ, into the Rover, we’re heading back to base\".
+
+You enter the rover just as Doc sends the pictures. The two structures do look very similar. As you begin running the comparison scans using the Salvation’s main computer, Butterfly comes in. \"Guys, I’m checking the new satellite imagery, there’s a whole line of these structures that ends or begins here, leading to and past the one we’ve seen yesterday. None of these were there before the storm!\"
+
+Jessica pauses for a second, clearly weighing her options. \"Emergency meeting in the operations room. Val, stay on the tower and let us know what’s going on. Everyone else - yellow Alert - moving around is only in pairs now. Stay alert, stay safe. Jessica out!\"
+
+<Keep driving towards the base>[3c]
+
+
+3b
+Examine alien structure in base (having stayed in base)
+You reach the spot right after Val, and gasp as what used to be an empty spot full of the pebbles that stretch for miles around the encampment is now occupied by a tall cage-like construction. It looks just like the one in Butterfly’s 3D model, the one you did not examine further away.
+
+\"This can’t be a coincidence,\" Doc starts. It’s right in the middle of our friggin base. \"How did it get here?\"
+Jessica arrives next, clearly concerned. \"Yellow alert everyone. Move around in twos, keep your eyes open to anything unusual. There might be something here. Butterfly, get us some satellite imagery of the area from the Salvation. Asap. Val - up to the tower, let us know if you see anything and work on our automated defenses.\"
+
+You stay with Jessica and circle around the structure. A group of line-like tracks, maybe half an inch deep, lead out of the camp into the empty plains outside. \"Seems like whatever was here either came from there or went there,\" you gesture toward the general area. Jessica comes to take a look, but as she opens her mouth to speak Butterfly blurts out. \"Guys, I’m checking the new satellite imagery, there’s a whole line of these structures that ends or begins here, leading to and past the one we’ve seen yesterday. None of these were there before the storm!\"
+
+Jessica pauses for a second, clearly weighing her options. \"Emergency meeting in 5, operations room. Val, stay on the tower and let us know what’s going on.\"
+
+<\"This is fucked up.\">[3d]
+<\"We have to stay calm\">[3e]
+
+3c
+Examine alien structure in base (coming back to base)
+You pass by another five alien structures on the way back to the base. They all seem similar, but you scan them nonetheless and upload their images to compare them digitally. No surprises there - but these are still large structures that came out of nowhere.
+
+You push on towards the base, Olli parking the Rover just in front of the operations room. You disembark and follow Jessica in.
+
+<\"This is fucked up.\">[3d]
+<\"We have to stay calm\">[3e]
+
+3d
+Tension in camp, Jessica angry
+\"EZ calm down at once. There’s no point in scaring everybody else! You’re my second in command, so better act like it!\" an urgent message from Jessica appears on your helmet screen. She looks at you assertively and you decide not to push things at the moment.
+
+Everyone is discussing the mysterious structures between themselves, mostly afraid, although Hero seems to be less concerned about them. \"Listen up! There is something clearly going on here,\" Jessica starts off.
+
+\"Tell us something we don’t know, captain,\" Olli breaks in.
+
+<\"Shut up, Olli! It’s your commander speaking!\">[3f]
+<Remain silent>[3g]
+
+
+3e
+Tension in camp, Jessica concerned
+\"We need to keep everything calm here, EZ. I need you to help me, we can’t have people starting to freak out now.\" an urgent message from Jessica appears on your helmet screen. She looks at you questioningly and you nod in assent, more to show her your support than any real calmness you feel.
+
+Everyone is discussing the mysterious structures between themselves, mostly afraid, although Hero seems to be less concerned about them. \"Listen up! There is something clearly going on here,\" Jessica starts off.
+
+\"Tell us something we don’t know, captain,\" Olli breaks in.
+
+<\"Shut up, Olli! It’s your commander speaking!\">[3f]
+<Remain silent>[3g]
+
+3f
+PC silences Olli
+Olli falls silent. He begins to open his mouth, but then looks at Jessica who stares coldly at him, very differently from her regular demeanor.\" Reluctantly, Olli remains silent, his eyes showing a red hue from the reflected light of the command desk.
+
+\"We cannot stay in here and wait for the next of these to happen. So far whatever has been going on hasn’t been aggressive. We cannot give this planet up just because we’re scared from some plants. We have enough firepower to protect us from anything that might come this way.\" A few concerns are raised, but Jessica continues. \"We’ll set out on another expedition to check the other end of these structures. Olli, you’re with me. Any other volunteers? I need one more person to cover us.\"
+
+<Volunteer to join Jessica>[3h]
+<Don’t volunteer>[3i]
+
+3g
+Jessica silences Olli
+Jessica falls silent. \"You will allow me to finish, Olli. There’s no need to freak out,\" she says calmly and confidently. Olli doesn’t seem to buy it but remains silent, his eyes showing a red hue from the reflected light of the command desk.
+
+\"We cannot stay in here and wait for the next of these to happen. So far whatever has been going on hasn’t been aggressive. We cannot give this planet up just because we’re scared from some plants. We have enough firepower to protect us from anything that might come this way.\" A few concerns are raised, but Jessica continues. \"We’ll set out on another expedition to check the other end of these structures. Olli, you’re with me. Any other volunteers? I need one more person to cover us.\"
+
+<Volunteer to join Jessica>[4]
+<Don’t volunteer and remain in camp>[4a]
+
+4
+Second mission leaves with PC
+You raise your hand, \"I’ll come,\" you say confidently, banishing your fear elsewhere.
+\"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. Butterfly, find us the best place to investigate\".
+\"Right away, captain,\" the science officer snaps as she begins to manipulate her 3D model. \"The line seems to end here,\" she gestures at a general location, then zooms in to show a cleft between two larger rocks. This seems like the best place to start checking. The closest place where something might have disappeared in.\"
+
+Jessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job Butterfly, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"
+
+You follow Jessica and Olli and enter the Rover. Olli plots a course towards the rock cleft, and you prepare your equipment along the way. \"EZ and me will send a scout drone down the cleft Olli, you’ll stay in the Rover. Same business as usual\". You and Olli nod, and he sends you a private message that appears on your helmet display, \"I’m glad we don’t have to switch our roles here! ;)\"
+
+<\"Don’t worry, I know what I’m doing!\">[4e]"
+
+"s4a": {
+  "summary": "second mission leaves without PC",
+  "story":
+    "Butterfly shyly raises her hand. \"I'll come with you,\" she says. Jessica seems relieved that her plan receives the support of her subordinates. \"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. EZ, find us the best place to investigate\".
+    \"Right away, captain,\" you report, uncertain whether she expected you to volunteer. You triangule Butterfly's 3D model with the communication instruments you're more proficient in using, and start working tracing the area with a sonar-based algorithm. \"The line seems to end here,\" you gestures at a point on the map, then zoom in to show a cleft between two larger rocks. \"This seems like the best place to start checking. The closest place where something might have disappeared in.\"
+
+    Jessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job EZ, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"",
+  "option1": {
+    "option": "\"Sure thing, Jessica\"" ,
+    "next": "s4b"
+  },
+},
+
+"s4b": {
+  "summary": "Second mission (no PC) reaches point encounters alien",
+  "story":
+    "You stay in the command room, eyes transfixed on the interactive positioning system that shows the Rover's slow advancement toward the rock cleft. The team finally disembarks, and you hear Jessica commanding Butterfly to deploy a scout drone. It takes Butterfly a few moments - after all, you're the expert with this type of drone, but she eventually puts everything in shape and begins to pilot it through the cleft and into the caverns below. Every few seconds, it sends a sonar pulse, mapping the area. A few minutes in it becomes obvious that the small cleft is part of a large network of tunnels that criscross the entire area. Visuals are dark, and there is no sign for anything in the infra-red sensors although those just work over the short range. \"EZ, are you receiving this?\" Jessica asks you, clear awe in her voice.",
+  "option1": {
+    "option": "\"Yes, I'm getting the entire sonar map on my screen here\"" ,
+    "next": "s4c"
+  },
+},
+
+"s4c": {
+  "summary": "Second mission (no PC) - taking photos",
+  "story":
+    "You can see on the feed from one of the external Rover cams that Jessica stands next Butterfly, concentrated on the map that is slowly being revealed on their screen. You follow on yours as well, observing how the underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet below ground level. \"How’s your connection to the drone?\" Jessica asks Butterfly.
+    \"Fine, I can still control it manually,\" the science officer replies.
+    \"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".",
+  "option1": {
+    "option": "You wait impatiently for the results of the image." ,
+    "next": "s4d0"
+  },
+},
+
+"s4d0": {
+  "summary": "Second mission (no PC) - Olli dies",
+  "story":
+    "The photos show what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.
+
+    \"Captain, Butterfly, is Olli okay? He’s not responding and I can’t access his vital signs.\"
+    \"Olli!\", Jessica says, and begins moving to the Rover. You quickly switch to the internal Rover cam to find Olli's lifeless body lying down on the floor, head down.",
+  "option1": {
+    "option": "Shit." ,
+    "next": "s4d1"
+  },
+},
+
+"s4d1": {
+  "summary": "Second mission (no PC) - Olli dead, return to base",
+  "story":
+    "\"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"
+
+    You quickly select the past 20 minutes and record all the feed from the Rover, and begin to run tests to figure out what went wrong. You glance at the current feed, observing that Butterfly sits frozen on her chair trying to avoid looking at Olli's corpse in front of her. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. EZ, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n
+    After what seems to be forever, Jessica parks the Rover next to the base medbay, and a few moments later enters the operation room.",
+  "option1": {
+    "option": "Prepare to play everything for the meeting." ,
+    "next": "s5"
+  },
+},
+
+
+4e
+Second mission (PC) reaches point encounters alien
+You eventually disembark near the cleft. You lead with the scout drone, which looks like a ball surrounded by fissures. You set the ball near the cleft, open a nearby screen, then begin to pilot it through the cleft. Every few seconds, it sends a sonar pulse, mapping the area. A few minutes in it becomes obvious that the small cleft is part of a large network of tunnels that criscross the entire area. Visuals are dark, and there is no sign for anything in the infra-red sensors although those just work over the short range.
+
+Jessica stands next to you, concentrated on the map that is slowly being revealed on your screen. The underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet underground. Jessica looks at you. \"How’s your connection to the drone?\" she asks.
+\"Fine, I can still control it manually,\" you reply.
+\"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".
+
+<\"I don’t think it’s a good idea Jessica\"> 4e1
+<Take the photos as Jessica commands> 4e2
+
+4e1
+Jessica seems a bit distant. \"I didn’t ask you to, EZ, I commanded you to. We must figure out what’s going on here. If anything goes wrong, there’s a Rover here that will take us back to base. Take the pictures.\"
+
+You reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.
+
+\"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"
+\"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover."
+
+
+"s4e2": {
+  "summary": "PC takes photos, Doc calls in",
+  "story":
+    "You reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom. \"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"
+    \"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover.",
+  "option1": {
+    "option": "Look inside the Rover",
+    "next": "s4f"
+  },
+},
+
+"s4f": {
+  "summary": "PC takes photos, Doc calls in",
+  "story":
+    "Olli’s body is laid down on the Rover’s floor, his face down. His helmet lies on the floor some two feet away among some of the instruments. \"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"
+
+    You quickly gather your equipment and jump into the Rover as Jessica directs it back towards the base. Your eyes move between Olli's lifeless corpse and Jessica, and you don't dare to turn Olli around, although a reddish dried puddle around what used to be his face was probably his blood, dried up in the cold atmosphere of Ross 128 b. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. Butterfly, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n
+    After what seems to be forever, Jessica parks the Rover next to the base medbay, and you both carry the corpse into the operation room.",
+  "option1": {
+    "option": "Go to the operation room",
+    "next": "s5"
+  },
+},
+
+"s5": {
+  "summary": "Investigation of Olli's death",
+  "story":
+    "Jessica looks around at the rest of the squad. \"Olli is dead. He was a brave man, and died on this foreign planet. The least we can do is to make sure he did not die for nothing. Butterfly, play the feeds.\" Butterfly presses a few buttons, and a mass of data fills the screens around you. \"There,\" she exclaims, pointing at the camera feed from within the Rover which shows Olli sitting on his floor. His vitals then simply vanish, and a few seconds afterward he begins to bash his head against the Rover's floor. He keeps on doing it for three whole minutes, everyone fixated on the screen. Eventually, his helmet fractures, the pressure change pushing it a few feet away. Olli collapses on the video. A few moments of silence ensue.
+    \n
+    Doc then comes in from the med room. \"Captain, Olli died from some kind of mental issue. It might be similar to MDD.\" The doctor points out, causing Juan to gasp. \"I don't understand what happened to his vitals. It's as if something disconnected him from his brain implant, which is used to gather that data.\" Your own hand involuntarily goes up to your temples, feeling the small bulge under the soft tissue. The thought about it makes you feel a bit uneasy. You try to shake the feeling away.",
+  "option1": {
+    "option": "\"What about the cavern hall image?\" You ask." ,
+    "next": "s5a"
+  },
+},
+
+"s5a": {
+  "summary": "Group debate about alien life form - kill or no kill",
+  "story":
+    "Butterfly nods and loads up the images from the underground cavern. \"We can't connect to the scout drone from here - it's too deep inside, but it did get us these photos. This,\" she points at a large dark area, \"might be a creature of some sort. It appears in these other images, and one of my algorithms detected that it moved in the short video here.\" The video seems choppy, but something does seem to move. \"We're not alone,\" Jessica says quietly. \"That thing might be after us.\"",
+    "option1": {
+      "option": "\"Are you're saying that we are being hunted, captain?\"" ,
+      "next": "s5b"
+    },
+  },
+
+"s5b": {
+  "summary": "Group arguments about alien life form - kill or no kill",
+  "story":
+    "Butterfly speaks up \"There isn't any evidence for that. All we know is that Olli died. The underground creature might or might not be hostile, and opening hostilities might not end up well.\"
+    Juan responds quickly, \"You know what? I don't give a shit about hostile and I don't give a shit about the creature. If had anything to do with Olli's death, I say better put it down now than have it hunt us down one by one. Fuck it, let's go now!\"
+    Jessica waves her hand to signal Juan to stop. \"Okay. How do you all think about this?\"
+    Doc enters the room. \"Let's get it. We don't know if it's intelligent, and we could convey that information back to Joint Fleet.\".
+    Val, having been silent for the past discussion, speaks on the intercom. \"I'm with Butterfly on this one. We can't be sure of anything and may be acting prematurely.\".
+    Jessica turns to you. \"What about you, EZ?\"",
+  "option1": {
+    "option": "\"Kill it. The sooner the better.\"" ,
+    "next": "s5c"
+  },
+  "option2": {
+    "option": "\"We can't just go killing aliens. This might have major consequences!\"" ,
+    "next": "s5d"
+  },
+},
+
+"s5c": {
+  "summary": "vote to kill",
+  "story":
+    "\"I'm more reluctant,\" Jessica admits. \"But you three seem to be pretty certain about it. It's really an open decision. Let's do it then.\"
+    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
+    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
+    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
+    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go.\"
+    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+  "option1": {
+    "option": "You load the rifle blasters onto the Rover.",
+    "next": "s5e"
+  },
+},
+
+"s5d": {
+  "summary": "vote not to kill",
+  "story":
+    "\"I'll vote to get it. It's one alien, and we have the right to defend ourselves,\" Jessica smiles. \"So we're three against two. Let's do it then.\"
+    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
+    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
+    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
+    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go. Load the backup Rover as well.\"
+    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+  "option1": {
+    "option": "You load the rifle blasters onto the backup Rover." ,
+    "next": "s5e"
+  },
+},
+
+"s5e": {
+  "summary": "groups split to kill alien",
+  "story":
+    "You all meet near the Rovers. Juan and Val drive them towards the cleft. \"Listen up everyone,\" Jessica goes on the intercom. \"Once we get there, we'll all head in. I through this route,\" she loads the sonar map of the caverns onto your helmet screen. \"At this point, we'll split into two groups. I want us to flank the artificial hall room. I'll take Doc and Juan and take the wider, longer route. EZ, you take Val and Butterfly on this shorter but narrower route. We wait outside the artificial room and coordinate there. Do not engage without my permission. We can keep comms on silent, and we can use light - the creature in the images and video didn't seem to respond to the drone's bursts. The drone is still in there, use its recon to be aware of what is going in. Remember - silence in the caverns, we don't know how it might know that we're coming. Is everything clear?\" Doc and Juan loudly support the plan, with Juan's eyes gleaming with a reddish hue. Butterfly is reluctant but won't argue against everything. Val accepts with an emotionless voice.",
+  "option1": {
+    "option": "\"Clear, Jessica.\"",
+    "next": "s5f"
+  },
+  "option2": {
+    "option": "\"Sounds like a solid plan. Let's do this!\"",
+    "next": "s5f"
+  },
+},
+
+"s5f": {
+  "summary": "In the caverns",
+  "story":
+    "Things proceed as planned. You all reach the cleft, the drone is still underground, and you squeeze into the cleft for a few feet before the cavern expands to a size in which you can crouch, and soon afterwards walk. You all communicate silently through the text-based interface in the comm system, and there are no incidents until you reach the planned splitting point. Jessica leads her team and waves at you, while you take your own team and advance in the narrower tunnel. It's not a long distance, but it takes time to navigate its length even in the light. Colorful speleothems and other rock formations on the cavern's walls and ceiling are easily comparable to some of the most beaufiful ones you've seen in the Old Earth VRs. Your team keeps descending, ",
+  "option1": {
+    "option": "\"Clear, Jessica.\"",
+    "next": "s5f"
+  },
+  "option2": {
+    "option": "\"Sounds like a solid plan. Let's do this!\"",
+    "next": "s5f"
+  },
+},
+
+
+
+s5a - voting
+s5b - arguments
+s5c - vote to kill
+s5d - vote not to kill
+s5f - 2 groups leave to hunt alien
+s5g - Butterfly's mayday call
+s6 - return or not return dilemma
