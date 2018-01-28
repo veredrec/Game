@@ -87,9 +87,17 @@
 		}
 	},
 
+  "s0h": {
+		"summary": "Helping Butterfly",
+		"story": "You quickly help Butterfly load her equipment onto the Lander. You both work efficiently, organizing things according to well-practiced drills. A few minutes later, Jessica calls you both on the internal communications system. \"EZ, Butterfly, status report?\"",
+		"option1": {
+			"option": "\"We're done, commander!\"",
+			"next": "s0j"
+		},
+
 	"s0i": {
 		"summary": "Lander landing",
-		"story": "After what seems to take forever you are all ready and enter the Lander. Juan, the pilot, shuffles another series of Justin Bieber songs in preparation for his flight. Thanking Joint Command for the separate audio feeds in the Landers - since you have much less responsibilities until landing on the surface, you squelch his music feed and instead listen to your own music, which calms you a bit during the rocky descent. You look through the window, observing how the ground grows larger and the sky becomes green blue, a color that reminds you of the scuba VR sim for a moment, until you look at the ground and realize that there is no running water anywhere in sight\".",
+		"story": "After what seems to take forever you are all ready and enter the Lander. Juan, the pilot, shuffles another series of Justin Bieber songs in preparation for his flight. Thanking Joint Command for the separate audio feeds in the Landers - since you have much less responsibilities until landing on the surface, you squelch his music feed and instead listen to your own music, which calms you a bit during the rocky descent. You look through the window, observing how the ground grows larger and the sky becomes green blue, a color that reminds you of the scuba VR sim for a moment, until you look at the ground and realize that there is no running water anywhere in sight.",
 		"option1": {
 			"option": "\"Seems very dry here...\"",
 			"next": "s0j"
