@@ -50,12 +50,18 @@ function populateData(text) {
   $('#option1').text(text.option1.option);
   if (text.option2) {
     $('#option2').text(text.option2.option);
+  } else {
+    $('#option2').text('');
   }
   if (text.option3) {
     $('#option3').text(text.option3.option);
+  } else {
+    $('#option2').text('');
   }
   if (text.option4) {
     $('#option4').text(text.option4.option);
+  } else {
+    $('#option2').text('');
   }
 }
 
