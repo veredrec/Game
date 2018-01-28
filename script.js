@@ -5,6 +5,17 @@ var text;
 var dataUrl =
   'https://raw.githubusercontent.com/veredrec/Game/master/text.json';
 
+$(document).ready(function() {
+  var gameMusic = new Audio('./assets/audio/beginning.mp3');
+  gameMusic.play();
+});
+
+// start the game
+$('#start').click(function() {
+  $('#intro').toggleClass('hide');
+  $('#main').toggleClass('hide');
+});
+
 // API call to text file (JSON) to retrive the data
 function loadData(callback) {
   fetch(dataUrl)
@@ -13,20 +24,29 @@ function loadData(callback) {
     })
     .then(function(data) {
       text = data;
-      currentText = data.a00; // intro story from text data
+      currentText = data.s0; // intro story from text data
       $('#mainText').text(currentText.story);
       $('#option1').text(currentText.option1.option);
     })
     .catch(function(err) {
-      $('#mainText').text('There was an error, sorry!');
+      $('#mainText').text('Sorry, there was an error...');
       console.log(err);
     });
 }
 loadData();
 
+// checks if story got to last moments - if yes, plays the ending music
+function checkStoryEnding(text) {
+  if (text.indexOf('Communications Officer EZ reporting') >= 0) {
+    var endingMusic = new Audio('./assets/audio/ending.mp3');
+    endingMusic.play();
+  }
+}
+
 // takes the data from the text file and populate the text and options on the page
 function populateData(text) {
   $('#mainText').text(text.story);
+  checkStoryEnding(text.story);
   $('#option1').text(text.option1.option);
   if (text.option2) {
     $('#option2').text(text.option2.option);
@@ -80,11 +100,8 @@ $('#option4').click(function() {
   populateData(currentText);
 });
 
-// add music to oprning scene
-if (currentText === 'data.a00') {
-  var opening = new Audio('file.wav');
-  opening.play();
-}
 // add music to ending scene
+
+// add background music
 
 // add sound effects to transmitions

@@ -1,55 +1,92 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('./assets/images//opening.jpg');
-  background-size: cover;
+  background: url('./assets/images/opening.jpg');
   font-family: 'Cabin', sans-serif;
   font-size: 14px;
 }
-.logo {
-  width: 100px;
-  margin: 2rem;
+.main {
+  position: absolute;
+  display: block;
 }
 .wrapper {
   position: relative;
-  height: 75vh;
-  width: 70%;
-  padding: 3rem;
-  margin: 0.5rem auto;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  width: 95%;
+  height: 70vh;
+  padding: 2rem;
 }
 .story {
-  background-color: #9da2b6;
-  opacity: 0.6;
-  border-radius: 2rem;
+  background-color: #ccdfcb;
+  opacity: 0.5;
+  border-radius: 1.5rem;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  padding: 3rem;
-  height: 75vh;
-  width: 70%;
-  margin: 0.5rem auto;
+  padding: 2rem;
+  height: 70vh;
+  margin: 2rem;
   z-index: -1;
 }
 .text {
-  color: #dfe2e3;
-  width: 80%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #192231;
+  width: 90%;
   display: block;
-  margin: 0 auto;
-  height: 50vh;
+  margin: 2rem;
 }
 .options-list {
   list-style-type: none;
-  text-align: center;
   padding: 0;
+  padding-left: 2rem;
   margin: 0;
 }
 .option {
-  color: #54eb76;
+  color: #985e6d;
   font-weight: 600;
-  padding: 0.2rem;
+  margin: 1rem 0.2rem;
   text-decoration: underline;
   text-underline-position: under;
+  font-size: 1.2rem;
+}
+/* INTRO SECTION */
+.intro {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+}
+.logo-intro {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 4rem;
+}
+.start {
+  border: none;
+  background-color: #0a1e64;
+  font-size: 1.7rem;
+  color: #eaedf8;
+  border-radius: 1.8rem;
+  font-family: 'Cabin', sans-serif;
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.4;
+  display: block;
+  margin: 1rem auto;
+  transition: all 0.3s ease-in;
+}
+.start:hover {
+  background-color: #d54963;
+  color: #dbd5d6;
+  opacity: 0.7;
+}
+.start:focus {
+  outline: 0;
+}
+
+.hide {
+  display: none;
 }
