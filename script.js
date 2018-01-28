@@ -56,12 +56,12 @@ function populateData(text) {
   if (text.option3) {
     $('#option3').text(text.option3.option);
   } else {
-    $('#option2').text('');
+    $('#option3').text('');
   }
   if (text.option4) {
     $('#option4').text(text.option4.option);
   } else {
-    $('#option2').text('');
+    $('#option4').text('');
   }
 }
 
