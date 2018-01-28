@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('./assets/opening.jpg');
+  background: url('./assets/images//opening.jpg');
   background-size: cover;
   font-family: 'Cabin', sans-serif;
   font-size: 14px;
@@ -11,29 +11,25 @@ body {
   margin: 2rem;
 }
 .wrapper {
-  display: block;
   position: relative;
   height: 75vh;
   width: 70%;
-  padding: 1.5rem;
+  padding: 3rem;
   margin: 0.5rem auto;
-  z-index: 1;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 .story {
-  background-color: #404546;
+  background-color: #9da2b6;
   opacity: 0.6;
-  display: block;
   border-radius: 2rem;
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
-  padding: 1.5rem;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  width: 70%;
+  padding: 3rem;
   height: 75vh;
+  width: 70%;
   margin: 0.5rem auto;
   z-index: -1;
 }
