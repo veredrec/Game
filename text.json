@@ -468,13 +468,11 @@
 "s4a": {
   "summary": "second mission leaves without PC",
   "story":
-    "Butterfly shyly raises her hand. \"I'll come with you,\" she says. Jessica seems relieved that her plan receives the support of her subordinates. \"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. EZ, find us the best place to investigate\".
-    \"Right away, captain,\" you report, uncertain whether she expected you to volunteer. You triangule Butterfly's 3D model with the communication instruments you're more proficient in using, and start working tracing the area with a sonar-based algorithm. \"The line seems to end here,\" you gestures at a point on the map, then zoom in to show a cleft between two larger rocks. \"This seems like the best place to start checking. The closest place where something might have disappeared in.\"
-    Jessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job EZ, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"",
+    "Butterfly shyly raises her hand. \"I'll come with you,\" she says. Jessica seems relieved that her plan receives the support of her subordinates. \"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. EZ, find us the best place to investigate\".\n\"Right away, captain,\" you report, uncertain whether she expected you to volunteer. You triangule Butterfly's 3D model with the communication instruments you're more proficient in using, and start working tracing the area with a sonar-based algorithm. \"The line seems to end here,\" you gestures at a point on the map, then zoom in to show a cleft between two larger rocks. \"This seems like the best place to start checking. The closest place where something might have disappeared in.\"\nJessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job EZ, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"",
   "option1": {
     "option": "\"Sure thing, Jessica\"" ,
     "next": "s4b"
-  },
+  }
 },
 
 "s4b": {
@@ -484,15 +482,13 @@
   "option1": {
     "option": "\"Yes, I'm getting the entire sonar map on my screen here\"" ,
     "next": "s4c"
-  },
+  }
 },
 
 "s4c": {
   "summary": "Second mission (no PC) - taking photos",
   "story":
-    "You can see on the feed from one of the external Rover cams that Jessica stands next Butterfly, concentrated on the map that is slowly being revealed on their screen. You follow on yours as well, observing how the underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet below ground level. \"How’s your connection to the drone?\" Jessica asks Butterfly.
-    \"Fine, I can still control it manually,\" the science officer replies.
-    \"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".",
+    "You can see on the feed from one of the external Rover cams that Jessica stands next Butterfly, concentrated on the map that is slowly being revealed on their screen. You follow on yours as well, observing how the underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet below ground level. \"How’s your connection to the drone?\" Jessica asks Butterfly.\n\"Fine, I can still control it manually,\" the science officer replies.\n\"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".",
   "option1": {
     "option": "You wait impatiently for the results of the image." ,
     "next": "s4d0"
@@ -502,9 +498,7 @@
 "s4d0": {
   "summary": "Second mission (no PC) - Olli dies",
   "story":
-    "The photos show what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.
-    \"Captain, Butterfly, is Olli okay? He’s not responding and I can’t access his vital signs.\"
-    \"Olli!\", Jessica says, and begins moving to the Rover. You quickly switch to the internal Rover cam to find Olli's lifeless body lying down on the floor, head down.",
+    "The photos show what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.\n\"Captain, Butterfly, is Olli okay? He’s not responding and I can’t access his vital signs.\"\n\"Olli!\", Jessica says, and begins moving to the Rover. You quickly switch to the internal Rover cam to find Olli's lifeless body lying down on the floor, head down.",
   "option1": {
     "option": "Shit." ,
     "next": "s4d1"
@@ -514,9 +508,7 @@
 "s4d1": {
   "summary": "Second mission (no PC) - Olli dead, return to base",
   "story":
-    "\"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"
-    You quickly select the past 20 minutes and record all the feed from the Rover, and begin to run tests to figure out what went wrong. You glance at the current feed, observing that Butterfly sits frozen on her chair trying to avoid looking at Olli's corpse in front of her. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. EZ, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n
-    After what seems to be forever, Jessica parks the Rover next to the base medbay, and a few moments later enters the operation room.",
+    "\"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"\nYou quickly select the past 20 minutes and record all the feed from the Rover, and begin to run tests to figure out what went wrong. You glance at the current feed, observing that Butterfly sits frozen on her chair trying to avoid looking at Olli's corpse in front of her. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. EZ, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n\nAfter what seems to be forever, Jessica parks the Rover next to the base medbay, and a few moments later enters the operation room.",
   "option1": {
     "option": "Prepare to play everything for the meeting." ,
     "next": "s5"
@@ -550,8 +542,7 @@
 "s4e2": {
   "summary": "PC takes photos, Doc calls in",
   "story":
-    "You reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom. \"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"
-    \"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover.",
+    "You reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom. \"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"\n\"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover.",
   "option1": {
     "option": "Look inside the Rover",
     "next": "s4f"
@@ -591,8 +582,7 @@
 "s5b": {
   "summary": "Group arguments about alien life form - kill or no kill",
   "story":
-    "Butterfly speaks up \"There isn't any evidence for that. All we know is that Olli died. The underground creature might or might not be hostile, and opening hostilities might not end up well.\"\nJuan responds quickly, \"You know what? I don't give a shit about hostile and I don't give a shit about the creature. If had anything to do with Olli's death, I say better put it down now than have it hunt us down one by one. Fuck it, let's go now!\"\nJessica waves her hand to signal Juan to stop. \"Okay. How do you all think about this?\"\nDoc enters the room. \"Let's get it. We don't know if it's intelligent, and we could convey that information back to Joint Fleet.\".\nVal, having been silent for the past discussion, speaks on the intercom. \"I'm with Butterfly on this one. We can't be sure of anything and may be acting prematurely.\".
-    Jessica turns to you. \"What about you, EZ?\"",
+    "Butterfly speaks up \"There isn't any evidence for that. All we know is that Olli died. The underground creature might or might not be hostile, and opening hostilities might not end up well.\"\nJuan responds quickly, \"You know what? I don't give a shit about hostile and I don't give a shit about the creature. If had anything to do with Olli's death, I say better put it down now than have it hunt us down one by one. Fuck it, let's go now!\"\nJessica waves her hand to signal Juan to stop. \"Okay. How do you all think about this?\"\nDoc enters the room. \"Let's get it. We don't know if it's intelligent, and we could convey that information back to Joint Fleet.\".\nVal, having been silent for the past discussion, speaks on the intercom. \"I'm with Butterfly on this one. We can't be sure of anything and may be acting prematurely.\".\nJessica turns to you. \"What about you, EZ?\"",
   "option1": {
     "option": "\"Kill it. The sooner the better.\"" ,
     "next": "s5c"
@@ -606,12 +596,7 @@
 "s5c": {
   "summary": "vote to kill",
   "story":
-    "\"I'm more reluctant,\" Jessica admits. \"But you three seem to be pretty certain about it. It's really an open decision. Let's do it then.\"
-    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
-    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
-    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
-    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go.\"
-    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+    "\"I'm more reluctant,\" Jessica admits. \"But you three seem to be pretty certain about it. It's really an open decision. Let's do it then.\"\n\"Hell yeah,\" Juan shouts. \"That alien is going down!\"\nDoc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",\nVal radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"\n\"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go.\"\nButterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
   "option1": {
     "option": "You load the rifle blasters onto the Rover.",
     "next": "s5e"
@@ -621,16 +606,11 @@
 "s5d": {
   "summary": "vote not to kill",
   "story":
-    "\"I'll vote to get it. It's one alien, and we have the right to defend ourselves,\" Jessica smiles. \"So we're three against two. Let's do it then.\"
-    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
-    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
-    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
-    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go. Load the backup Rover as well.\"
-    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+    "\"I'll vote to get it. It's one alien, and we have the right to defend ourselves,\" Jessica smiles. \"So we're three against two. Let's do it then.\"\n\"Hell yeah,\" Juan shouts. \"That alien is going down!\"\nDoc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",\nVal radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"\n\"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go. Load the backup Rover as well.\"\nButterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
   "option1": {
     "option": "You load the rifle blasters onto the backup Rover." ,
     "next": "s5e"
-  },
+  }
 },
 
 "s5e": {
@@ -664,9 +644,7 @@
 "s5g": {
   "summary": "Juan going crazy",
   "story":
-    "\"It's Juan, EZ. Something's wrong with him. He just pushed Jessica into a wall. I'm taking care of her, but I had to stun Juan because he started screaming. We need you guys here. Can you come help us?!\"
-    \n
-    \"Shit,\" you whisper. You quickly bring up the map, tracing a line between yourself and Doc and Jessica. You could either backtrack and take the other route towards them, which would likely take about 20-30 minutes in total before you can reach them, or keep on towards the artificial hall as originally planned and take down the alien if it's still there. From there, getting to Doc and Jess would be shorter, and you can probably do the entire route in 45 minutes, as long as the alien doesn't put up a fight.",
+    "\"It's Juan, EZ. Something's wrong with him. He just pushed Jessica into a wall. I'm taking care of her, but I had to stun Juan because he started screaming. We need you guys here. Can you come help us?!\"\n\"Shit,\" you whisper. You quickly bring up the map, tracing a line between yourself and Doc and Jessica. You could either backtrack and take the other route towards them, which would likely take about 20-30 minutes in total before you can reach them, or keep on towards the artificial hall as originally planned and take down the alien if it's still there. From there, getting to Doc and Jess would be shorter, and you can probably do the entire route in 45 minutes, as long as the alien doesn't put up a fight.",
   "option1": {
     "option": "\"We're backtracking and coming to get you Doc.\"",
     "next": "s6"
@@ -697,7 +675,7 @@
   },
   "option2": {
     "option": "Head into the Rover and drive back to the Lander",
-    "next": "7"
+    "next": "s7"
   },
 },
 
