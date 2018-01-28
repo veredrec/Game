@@ -512,7 +512,7 @@
   "option1": {
     "option": "Prepare to play everything for the meeting." ,
     "next": "s5"
-  },
+  }
 },
 
 "s4e": {
@@ -526,7 +526,7 @@
   "option2": {
     "option": "Take the photos as Jessica commands.",
     "next": "s4e2"
-  },
+  }
 },
 
 "s4e1": {
@@ -536,7 +536,7 @@
   "option1": {
     "option": "Look inside the Rover.",
     "next": "s4f"
-  },
+  }
 },
 
 "s4e2": {
@@ -546,7 +546,7 @@
   "option1": {
     "option": "Look inside the Rover",
     "next": "s4f"
-  },
+  }
 },
 
 "s4f": {
@@ -556,7 +556,7 @@
   "option1": {
     "option": "Go to the operation room",
     "next": "s5"
-  },
+  }
 },
 
 "s5": {
@@ -566,7 +566,7 @@
   "option1": {
     "option": "\"What about the cavern hall image?\" You ask." ,
     "next": "s5a"
-  },
+  }
 },
 
 "s5a": {
@@ -576,7 +576,7 @@
     "option1": {
       "option": "\"Are you're saying that we are being hunted, captain?\"" ,
       "next": "s5b"
-    },
+    }
   },
 
 "s5b": {
@@ -590,7 +590,7 @@
   "option2": {
     "option": "\"We can't just go killing aliens we know nothing about. This might have major consequences!\"" ,
     "next": "s5d"
-  },
+  }
 },
 
 "s5c": {
@@ -600,7 +600,7 @@
   "option1": {
     "option": "You load the rifle blasters onto the Rover.",
     "next": "s5e"
-  },
+  }
 },
 
 "s5d": {
@@ -624,7 +624,7 @@
   "option2": {
     "option": "\"Sounds like a solid plan. Let's do this!\"",
     "next": "s5f"
-  },
+  }
 },
 
 "s5f": {
@@ -638,7 +638,7 @@
   "option2": {
     "option": "\"What's wrong, Doc?\"",
     "next": "s5g"
-  },
+  }
 },
 
 "s5g": {
@@ -652,7 +652,7 @@
   "option2": {
     "option": "\"We'll continue towards the hall Doc, neutralize the alien, then head back towards you. Stay safe and keep Juan under control.?\"",
     "next": "s17"
-  },
+  }
 },
 
 "s6": {
@@ -662,7 +662,7 @@
   "option1": {
     "option": "\"What the...\"",
     "next": "s6a"
-  },
+  }
 },
 
 "s6a": {
@@ -676,7 +676,7 @@
   "option2": {
     "option": "Head into the Rover and drive back to the Lander",
     "next": "s7"
-  },
+  }
 },
 
 "s6b": {
@@ -686,7 +686,7 @@
   "option1": {
     "option": "\"Damn. We gotta stop her!\"",
     "next": "s7"
-  },
+  }
 },
 
 "s7": {
@@ -696,7 +696,7 @@
   "option1": {
     "option": "\"We'll be ready for her when she comes\"",
     "next": "s8"
-  },
+  }
 },
 
 "s8": {
@@ -706,7 +706,7 @@
   "option1": {
     "option": "Load the blaster, prepare yourself and enter the operations room.",
     "next": "s9"
-  },
+  }
 },
 
 "s9": {
@@ -716,7 +716,7 @@
   "option1": {
     "option": "Shoot Butterfly",
     "next": "s10"
-  },
+  }
 },
 
 "s10": {
@@ -726,7 +726,7 @@
   "option1": {
     "option": "Wait for Val",
     "next": "s11"
-  },
+  }
 },
 
 "s11": {
@@ -740,7 +740,7 @@
   "option2": {
     "option": "Hold fire and wait to see what happens",
     "next": "s11b"
-  },
+  }
 },
 
 "s11a": {
@@ -750,7 +750,7 @@
   "option1": {
     "option": "You select it with your mind, expecting to see the synth's last words.",
     "next": "s11c"
-  },
+  }
 },
 
 "s11b": {
@@ -764,7 +764,7 @@
   "option2": {
     "option": "\"Speak up and don't move!\"",
     "next": "s11d"
-  },
+  }
 },
 
 "s11c": {
@@ -778,7 +778,7 @@
   "option2": {
     "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
     "next": "s13"
-  },
+  }
 },
 
 "s11d": {
@@ -796,7 +796,7 @@
   "option3": {
     "option": "\"You haven't convinced me, Val. Sorry,\" Shoot Val.",
     "next": "s12b"
-  },
+  }
 },
 
 "s12a": {
@@ -810,7 +810,7 @@
   "option2": {
     "option": "Shut Val down",
     "next": "s12c"
-  },
+  }
 },
 
 "s12b": {
@@ -824,7 +824,7 @@
     "option2": {
       "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
       "next": "s13"
-    },
+    }
 },
 
 "s12c": {
@@ -838,7 +838,7 @@
     "option2": {
       "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
       "next": "s13"
-    },
+    }
 },
 
 "s13": {
@@ -849,14 +849,14 @@
       "option": "\"Okay. Come to the Lander. I'll unlock it for you. Once we're up in the Salvation, you both go straight to the cyro-beds.\"",
       "next": "s14"
     },
-    "option1": {
+    "option2": {
       "option": "\"Okay. Bring Butterfly from the operations room, and head towards the Lander. I'll prep it and unlock it for you. Once we're up in the Salvation, you three go straight to the cyro-beds.\"",
       "next": "s14a"
     },
-    "option2": {
+    "option3": {
       "option": "\"Sorry Doc, Jess is right. I need to do what's best for us all. We can't take the risk you infect anyone else. I'm sorry. EZ out.\"",
       "next": "s15"
-    },
+    }
 },
 
 "s14": {
@@ -866,7 +866,7 @@
     "option1": {
       "option": "Send last transmission from Ross 128 b",
       "next": "s30b"
-    },
+    }
 },
 
 "s14a": {
@@ -876,7 +876,7 @@
     "option1": {
       "option": "Send last transmission from Ross 128 b",
       "next": "s30d"
-    },
+    }
 },
 
 "s15": {
@@ -886,7 +886,7 @@
     "option1": {
       "option": "Send last transmission from Ross 128 b",
       "next": "s30a"
-    },
+    }
 },
 
 "s16": {
@@ -900,7 +900,7 @@
     "option2": {
       "option": "Read the message before sending the last transmission from Ross 128 b",
       "next": "16b"
-    },
+    }
 },
 
 "s16a": {
@@ -914,7 +914,7 @@
   "option2": {
     "option": "Read the message before sending the last transmission from Ross 128 b",
     "next": "16c"
-    },
+    }
 },
 
 "s16b": {
@@ -924,7 +924,7 @@
   "option1": {
     "option": "Proceed to send the last transmission from Ross 128 b",
     "next": "s30c"
-    },
+    }
 },
 
 "s16c": {
@@ -934,7 +934,7 @@
   "option1": {
     "option": "Proceed to send the last transmission from Ross 128 b",
     "next": "s30c"
-    },
+    }
 },
 
 "s30a": {
@@ -944,7 +944,7 @@
   "option1": {
     "option": "Credits",
     "next": "credits"
-    },
+    }
 },
 
 "s30b": {
@@ -954,7 +954,7 @@
   "option1": {
     "option": "Credits",
     "next": "credits"
-    },
+    }
 },
 
 "s30c": {
@@ -964,7 +964,7 @@
   "option1": {
     "option": "Credits",
     "next": "credits"
-    },
+    }
 },
 
 "s30d": {
@@ -974,6 +974,6 @@
   "option1": {
     "option": "Credits",
     "next": "credits"
-    },
-},
+    }
+}
 }
