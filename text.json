@@ -453,4 +453,552 @@
       "next": "s4a"
     }
   }
+  
+  
+  "s4": {
+    "summary": "Second mission leaves with PC",
+    "story":
+      "You raise your hand, \"I’ll come,\" you say confidently, banishing your fear elsewhere.\n\"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. Butterfly, find us the best place to investigate\".\n\"Right away, captain,\" the science officer snaps as she begins to manipulate her 3D model. \"The line seems to end here,\" she gestures at a general location, then zooms in to show a cleft between two larger rocks. This seems like the best place to start checking. The closest place where something might have disappeared in.\"\nJessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job Butterfly, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"\nYou follow Jessica and Olli and enter the Rover. Olli plots a course towards the rock cleft, and you prepare your equipment along the way. \"EZ and me will send a scout drone down the cleft Olli, you’ll stay in the Rover. Same business as usual\". You and Olli nod, and he sends you a private message that appears on your helmet display, \"I’m glad we don’t have to switch our roles here! ;)\"",
+    "option1": {
+      "option": "\"Don’t worry, I know what I’m doing!\"",
+      "next": "s4e"
+    },
+  },
+
+"s4a": {
+  "summary": "second mission leaves without PC",
+  "story":
+    "Butterfly shyly raises her hand. \"I'll come with you,\" she says. Jessica seems relieved that her plan receives the support of her subordinates. \"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. EZ, find us the best place to investigate\".
+    \"Right away, captain,\" you report, uncertain whether she expected you to volunteer. You triangule Butterfly's 3D model with the communication instruments you're more proficient in using, and start working tracing the area with a sonar-based algorithm. \"The line seems to end here,\" you gestures at a point on the map, then zoom in to show a cleft between two larger rocks. \"This seems like the best place to start checking. The closest place where something might have disappeared in.\"
+
+    Jessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job EZ, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"",
+  "option1": {
+    "option": "\"Sure thing, Jessica\"" ,
+    "next": "s4b"
+  },
+},
+
+"s4b": {
+  "summary": "Second mission (no PC) reaches point encounters alien",
+  "story":
+    "You stay in the command room, eyes transfixed on the interactive positioning system that shows the Rover's slow advancement toward the rock cleft. The team finally disembarks, and you hear Jessica commanding Butterfly to deploy a scout drone. It takes Butterfly a few moments - after all, you're the expert with this type of drone, but she eventually puts everything in shape and begins to pilot it through the cleft and into the caverns below. Every few seconds, it sends a sonar pulse, mapping the area. A few minutes in it becomes obvious that the small cleft is part of a large network of tunnels that criscross the entire area. Visuals are dark, and there is no sign for anything in the infra-red sensors although those just work over the short range. \"EZ, are you receiving this?\" Jessica asks you, clear awe in her voice.",
+  "option1": {
+    "option": "\"Yes, I'm getting the entire sonar map on my screen here\"" ,
+    "next": "s4c"
+  },
+},
+
+"s4c": {
+  "summary": "Second mission (no PC) - taking photos",
+  "story":
+    "You can see on the feed from one of the external Rover cams that Jessica stands next Butterfly, concentrated on the map that is slowly being revealed on their screen. You follow on yours as well, observing how the underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet below ground level. \"How’s your connection to the drone?\" Jessica asks Butterfly.
+    \"Fine, I can still control it manually,\" the science officer replies.
+    \"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".",
+  "option1": {
+    "option": "You wait impatiently for the results of the image." ,
+    "next": "s4d0"
+  },
+},
+
+"s4d0": {
+  "summary": "Second mission (no PC) - Olli dies",
+  "story":
+    "The photos show what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.
+
+    \"Captain, Butterfly, is Olli okay? He’s not responding and I can’t access his vital signs.\"
+    \"Olli!\", Jessica says, and begins moving to the Rover. You quickly switch to the internal Rover cam to find Olli's lifeless body lying down on the floor, head down.",
+  "option1": {
+    "option": "Shit." ,
+    "next": "s4d1"
+  },
+},
+
+"s4d1": {
+  "summary": "Second mission (no PC) - Olli dead, return to base",
+  "story":
+    "\"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"
+
+    You quickly select the past 20 minutes and record all the feed from the Rover, and begin to run tests to figure out what went wrong. You glance at the current feed, observing that Butterfly sits frozen on her chair trying to avoid looking at Olli's corpse in front of her. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. EZ, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n
+    After what seems to be forever, Jessica parks the Rover next to the base medbay, and a few moments later enters the operation room.",
+  "option1": {
+    "option": "Prepare to play everything for the meeting." ,
+    "next": "s5"
+  },
+},
+
+"s4e": {
+  "summary": "Second mission (PC) reaches point encounters alien",
+  "story":
+    "You eventually disembark near the cleft. You lead with the scout drone, which looks like a ball surrounded by fissures. You set the ball near the cleft, open a nearby screen, then begin to pilot it through the cleft. Every few seconds, it sends a sonar pulse, mapping the area. A few minutes in it becomes obvious that the small cleft is part of a large network of tunnels that criscross the entire area. Visuals are dark, and there is no sign for anything in the infra-red sensors although those just work over the short range.\nJessica stands next to you, concentrated on the map that is slowly being revealed on your screen. The underground hallway opens up into what seems to be a symmetrical oval-like underground area, about 500 feet underground. Jessica looks at you. \"How’s your connection to the drone?\" she asks.\n\"Fine, I can still control it manually,\" you reply.\n\"Okay. I want light and a 360 degrees photo of this place, both visible light and infrared. As brief as possible, then we’ll decide how to continue\".",
+  "option1": {
+    "option": "I don't think it's a good idea Jessica.",
+    "next": "s4e1"
+  },
+  "option2": {
+    "option": "Take the photos as Jessica commands.",
+    "next": "s4e2"
+  },
+},
+
+"s4e1": {
+  "summary": "Jessica commands photos",
+  "story":
+    "Jessica seems a bit distant. \"I didn’t ask you to, EZ, I commanded you to. We must figure out what’s going on here. If anything goes wrong, there’s a Rover here that will take us back to base. Take the pictures.\"\nYou reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.\n\"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"\n\"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover.",
+  "option1": {
+    "option": "Look inside the Rover.",
+    "next": "s4f"
+  },
+},
+
+"s4e2": {
+  "summary": "PC takes photos, Doc calls in",
+  "story":
+    "You reluctantly take the photos, showing what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom. \"Captain, EZ, is Olli okay? He’s not responding and I can’t access his vital signs.\"
+    \"Olli!\", Jessica looks at you as she receives no answer. You both quickly move towards the Rover.",
+  "option1": {
+    "option": "Look inside the Rover",
+    "next": "s4f"
+  },
+},
+
+"s4f": {
+   "summary": "PC takes photos, Doc calls in",
+   "story":
+        "Olli’s body is laid down on the Rover’s floor, his face down. His helmet lies on the floor some two feet away among some of the instruments. \"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"\nYou quickly gather your equipment and jump into the Rover as Jessica directs it back towards the base. Your eyes move between Olli's lifeless corpse and Jessica, and you don't dare to turn Olli around, although a reddish dried puddle around what used to be his face was probably his blood, dried up in the cold atmosphere of Ross 128 b. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. Butterfly, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \nAfter what seems to be forever, Jessica parks the Rover next to the base medbay, and you both carry the corpse into the operation room.",
+  "option1": {
+    "option": "Go to the operation room",
+    "next": "s5"
+  },
+},
+
+"s5": {
+  "summary": "Investigation of Olli's death",
+  "story":
+    "Jessica looks around at the rest of the squad. \"Olli is dead. He was a brave man, and died on this foreign planet. The least we can do is to make sure he did not die for nothing. Butterfly, play the feeds.\" Butterfly presses a few buttons, and a mass of data fills the screens around you. \"There,\" she exclaims, pointing at the camera feed from within the Rover which shows Olli sitting on his floor. His vitals then simply vanish, and a few seconds afterward he begins to bash his head against the Rover's floor. He keeps on doing it for three whole minutes, everyone fixated on the screen. Eventually, his helmet fractures, the pressure change pushing it a few feet away. Olli collapses on the video. A few moments of silence ensue.\n   Doc then comes in from the med room. \"Captain, Olli died from some kind of mental issue. It might be similar to MDD.\" The doctor points out, causing Juan to gasp. \"I don't understand what happened to his vitals. It's as if something disconnected him from his brain implant, which is used to gather that data.\" Your own hand involuntarily goes up to your temples, feeling the small bulge under the soft tissue. The thought about it makes you feel a bit uneasy. You try to shake the feeling away.",
+  "option1": {
+    "option": "\"What about the cavern hall image?\" You ask." ,
+    "next": "s5a"
+  },
+},
+
+"s5a": {
+  "summary": "Group debate about alien life form - kill or no kill",
+  "story":
+    "Butterfly nods and loads up the images from the underground cavern. \"We can't connect to the scout drone from here - it's too deep inside, but it did get us these photos. This,\" she points at a large dark area, \"might be a creature of some sort. It appears in these other images, and one of my algorithms detected that it moved in the short video here.\" The video seems choppy, but something does seem to move. \"We're not alone,\" Jessica says quietly. \"That thing might be after us.\"",
+    "option1": {
+      "option": "\"Are you're saying that we are being hunted, captain?\"" ,
+      "next": "s5b"
+    },
+  },
+
+"s5b": {
+  "summary": "Group arguments about alien life form - kill or no kill",
+  "story":
+    "Butterfly speaks up \"There isn't any evidence for that. All we know is that Olli died. The underground creature might or might not be hostile, and opening hostilities might not end up well.\"\nJuan responds quickly, \"You know what? I don't give a shit about hostile and I don't give a shit about the creature. If had anything to do with Olli's death, I say better put it down now than have it hunt us down one by one. Fuck it, let's go now!\"\nJessica waves her hand to signal Juan to stop. \"Okay. How do you all think about this?\"\nDoc enters the room. \"Let's get it. We don't know if it's intelligent, and we could convey that information back to Joint Fleet.\".\nVal, having been silent for the past discussion, speaks on the intercom. \"I'm with Butterfly on this one. We can't be sure of anything and may be acting prematurely.\".
+    Jessica turns to you. \"What about you, EZ?\"",
+  "option1": {
+    "option": "\"Kill it. The sooner the better.\"" ,
+    "next": "s5c"
+  },
+  "option2": {
+    "option": "\"We can't just go killing aliens we know nothing about. This might have major consequences!\"" ,
+    "next": "s5d"
+  },
+},
+
+"s5c": {
+  "summary": "vote to kill",
+  "story":
+    "\"I'm more reluctant,\" Jessica admits. \"But you three seem to be pretty certain about it. It's really an open decision. Let's do it then.\"
+    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
+    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
+    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
+    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go.\"
+    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+  "option1": {
+    "option": "You load the rifle blasters onto the Rover.",
+    "next": "s5e"
+  },
+},
+
+"s5d": {
+  "summary": "vote not to kill",
+  "story":
+    "\"I'll vote to get it. It's one alien, and we have the right to defend ourselves,\" Jessica smiles. \"So we're three against two. Let's do it then.\"
+    \"Hell yeah,\" Juan shouts. \"That alien is going down!\"
+    Doc smiles and high-fives Juan. \"We'll get it easy, I'm sure!\",
+    Val radios in, \"Captain, unless I got something wrong, there were three votes for each side.\"
+    \"Negative, Valkyrie. You're not human, your vote doesn't count as one. I will hear no more about this. We're all leaving in 10, get ready to go. Load the backup Rover as well.\"
+    Butterfly looks at you with tears in her eyes, then shakes her head and turns around to gather herself.",
+  "option1": {
+    "option": "You load the rifle blasters onto the backup Rover." ,
+    "next": "s5e"
+  },
+},
+
+"s5e": {
+  "summary": "groups split to kill alien",
+  "story":
+    "You all meet near the Rovers. Juan and Val drive them towards the cleft. \"Listen up everyone,\" Jessica goes on the intercom. \"Once we get there, we'll all head in. I through this route,\" she loads the sonar map of the caverns onto your helmet screen. \"At this point, we'll split into two groups. I want us to flank the artificial hall room. I'll take Doc and Juan and take the wider, longer route. EZ, you take Val and Butterfly on this shorter but narrower route. We wait outside the artificial room and coordinate there. Do not engage without my permission. We can keep comms on silent, and we can use light - the creature in the images and video didn't seem to respond to the drone's bursts. The drone is still in there, use its recon to be aware of what is going in. Remember - silence in the caverns, we don't know how it might know that we're coming. Is everything clear?\" Doc and Juan loudly support the plan, with Juan's eyes gleaming with a reddish hue. Butterfly is reluctant but won't argue against everything. Val accepts with an emotionless voice.",
+  "option1": {
+    "option": "\"Clear, Jessica.\"",
+    "next": "s5f"
+  },
+  "option2": {
+    "option": "\"Sounds like a solid plan. Let's do this!\"",
+    "next": "s5f"
+  },
+},
+
+"s5f": {
+  "summary": "In the caverns",
+  "story":
+    "Things proceed as planned. You all reach the cleft, the drone is still underground, and you squeeze into the cleft for a few feet before the cavern expands to a size in which you can crouch, and soon afterwards walk. You all communicate silently through the text-based interface in the comm system, and there are no incidents until you reach the planned splitting point. Jessica leads her team and waves at you, while you take your own team and advance in the narrower tunnel. It's not a long distance, but it takes time to navigate its length even in the light. Colorful speleothems and other rock formations on the cavern's walls and ceiling are easily comparable to some of the most beaufiful ones you've seen in the Old Earth VRs. Your team keeps descending, helping each other up and down some difficult areas. Val does her best to help you and Butterfly, leading the way but waiting to help you at the hardest parts to traverse. You stop for a moment to consider what exactly you are doing in this obscure part of the universe, but shake those thoughts out of your head, focusing instead on the task at hand. An urgent message suddenly appears on your visual helmet screen. \"EZ, do you read me!? EZ, come in!\" A blinking note at the side of the screen identifies the sender as Doc.",
+  "option1": {
+    "option": "\"I read you, Doc, is everything okay?\"",
+    "next": "s5g"
+  },
+  "option2": {
+    "option": "\"What's wrong, Doc?\"",
+    "next": "s5g"
+  },
+},
+
+"s5g": {
+  "summary": "Juan going crazy",
+  "story":
+    "\"It's Juan, EZ. Something's wrong with him. He just pushed Jessica into a wall. I'm taking care of her, but I had to stun Juan because he started screaming. We need you guys here. Can you come help us?!\"
+    \n
+    \"Shit,\" you whisper. You quickly bring up the map, tracing a line between yourself and Doc and Jessica. You could either backtrack and take the other route towards them, which would likely take about 20-30 minutes in total before you can reach them, or keep on towards the artificial hall as originally planned and take down the alien if it's still there. From there, getting to Doc and Jess would be shorter, and you can probably do the entire route in 45 minutes, as long as the alien doesn't put up a fight.",
+  "option1": {
+    "option": "\"We're backtracking and coming to get you Doc.\"",
+    "next": "s6"
+  },
+  "option2": {
+    "option": "\"We'll continue towards the hall Doc, neutralize the alien, then head back towards you. Stay safe and keep Juan under control.?\"",
+    "next": "s17"
+  },
+},
+
+"s6": {
+  "summary": "Team 2 heads towards Team 1",
+  "story":
+    "\"Thanks, EZ. I appreciate it. It'd be hell to stay here with two incapacitated people for any longer than necessary. I'll protect us all until you arrive,\" Doc says. You inform Butterfly and Val of events. Butterfly is clearly not taking it very well, but Val seems resolved and grows stronger as you turn back and reverse your path. After moving as quickly as possible, you join the wider path and about 200 ft from the other team's position on your map you can see lights moving around violently. You cover the last distance running, and witness a struggle between Doc and Juan, the latter foaming from the mouth and trying to charge Doc, who's holding him off with his blaster, bashing his face. \"Juan, stop it!\" you shout, but Juan doesn't even seem to acknowledge that you're there. \"Help!\" Doc graps, struggling with Juan as well as he can. You hesitate for a moment when a laser blast zaps a few feet from you and hits Juan in the chest, causing him to fall down immediately.",
+  "option1": {
+    "option": "\"What the...\"",
+    "next": "s6a"
+  },
+},
+
+"s6a": {
+  "summary": "Val runs away",
+  "story":
+    "You look back and see Val putting down her rifle. \"That can wait,\" you think to yourself as you proceed to check Doc and Jessica for any wounds. Doc is a bit shaken but okay, but Jessica suffers an internal fracture and a suit rupture, leaving her barely conscious but in bad shape. Doc clearly did whatever he could. You glance at Juan's body, where a hole is where his stomach used to be. \"Okay, let's get out of here now!\" you exclaim. \"Val you take the rear, I'll take point. Butterfly, help Doc carry Jess.\" Everyone nods and you begin making your way out of the cave. It is quite the challenge to pull injured Jess out through the cleft, but you eventually make it. Only then do you realize that Val is missing. \"Where's Val?!\" you call in something between fear and nervousness. Jessica, her eyes redshot with blood, and in much pain, gasps, \"The synth bitch is betraying us. I knew it. She's going to leave us here to die. You must stop her EZ. Don't let her do it. Get to the Lander, take Butterfly. Go. Now. We'll follow you.\" You look at Doc. \"She'll be okay,\" he blurts. \"I just need some time to work on her. We'll take the backup Rover, it's slower. You take the faster one.\"",
+  "option1": {
+    "option": "\"How can you be sure that Val is betraying us?\"",
+    "next": "s6b"
+  },
+  "option2": {
+    "option": "Head into the Rover and drive back to the Lander",
+    "next": "7"
+  },
+},
+
+"s6b": {
+  "summary": "radio evidence against Val",
+  "story":
+    "Jessica winces, \"Look at this,\" she says, sending you a short video of Val setting up the antenna and installing a piece of software you don't know. You quickly login and check the general time in which she operated the antenna - and realize that indeed Val has been sending very small and encrypted bits of data with you. Their size, only a few kilobytes in most cases, was too small for you to notice, but now that you think of it you realize that it is probably information about your mission, and to someone other than Joint Command. You look at Jessica, who is exhausted and tries to gesture towards the Rover. \"Go, now!\" she beckons you. \"Let's not all die on this planet!\"",
+  "option1": {
+    "option": "\"Damn. We gotta stop her!\"",
+    "next": "s7"
+  },
+},
+
+"s7": {
+  "summary": "Rover ride back to base",
+  "story":
+    "Butterfly remains silent during the ride towards the base. Her eyes, red because of the tension and lack of sleep over the past several hours, begin to tear as she shakes her head. \"I can't believe all of this. It's like a bad dream. First Olli, then Juan, and now Val.\" She stops for a second, then continues. \"I just hope we'll get out of this place, EZ.\" You nod at her and squeeze her shoulder for a moment as a gesture of support. \"I need you with me in base. Val would be extremely dangerous if she's turned against us,\" you state the obvious when discussing the combat-ready synthetic woman. Butterfly breahes heavily. \"I'll do my best EZ. I'll do my best\". She then busies herself with her own instruments. \"Val is indeed following us. I can see her on the satellite images,\" she passes a few images to you. They seem blurry at this resolution, but there is clearly a human-sized dot that is heading towards base. \"She's running, faster than I thought synths could. At this pace she'll arrive about half an hour after us,\" Butterfly answers your unvoiced question.",
+  "option1": {
+    "option": "\"We'll be ready for her when she comes\"",
+    "next": "s8"
+  },
+},
+
+"s8": {
+  "summary": "Reach base with Rover",
+  "story":
+    "You nod. \"I'll take the tower and turret, you take the operation room.\" Butterfly agrees, and the both of you move efficiently as you leave the Rover. You head to the armory to get the blaster rifles for their longer range, and Butterfly moves to the operations room to coordinate and give you immediate intel. You use your personal code to unlock the armory, and after considering it, take a couple of rifles. You lock the armory, preventing anyone below you in rank from entering it. Next, you head towards operation. \"I'm coming to drop one of the rifles with you Lily, just in case,\" you notify her. Butterfly, however, does not answer. You switch to feed from the operation room camera and see her standing motionless at one of the room's corners. Something may have happened to her. You try to reach her again on both voice and silent comms, but she does not answer. Her vital signs are gone - just as happened with Olli.",
+  "option1": {
+    "option": "Load the blaster, prepare yourself and enter the operations room.",
+    "next": "s9"
+  },
+},
+
+"s9": {
+  "summary": "In operations room with Butterfly, who is going insane",
+  "story":
+    "You slow down as you proceed towards the operation room. You hesitate for a moment, then switch your rifle to stun mode, but taking precaution to make it a powerful stun which will knock Butterfly down if necessary. You take a few additional steps, your hands beginning to sweat as you feel the tension in your abdomen. The automatic doors in front of you open, and you step inside, entering the room from the opposite one in which Butterfly is. The science officer is still standing in the room's corner, staring at the walls. She suddenly starts to turn towards you, her mouth foaming and eyes all red. She takes a few steps, then charges at you more quickly than you would have thought possible. Luckily, you're ready with your rifle blaster at hip level.",
+  "option1": {
+    "option": "Shoot Butterfly",
+    "next": "s10"
+  },
+},
+
+"s10": {
+  "summary": "In operations room with Butterfly, who is going insane",
+  "story":
+    "You fire a powerful stun blast at charging Butterfly, hitting her chest and sending her flying back half the distance across the room before she collapses. You should have a few minutes before whatever became of Butterfly regains its senses, so you quickly check the comm link to Salvation and link it to your helmet screen, allowing you to contol the camera in orbit. Scanning the area around the base, you locate Val, who is almost in the camp and seem to be heading to the operations room. You have enough time to bind Butterfly, tying her on the floor and taking cover behind one of the desks that would offer you a line of sight and fire at Val once she enters.",
+  "option1": {
+    "option": "Wait for Val",
+    "next": "s11"
+  },
+},
+
+"s11": {
+  "summary": "Val appears",
+  "story":
+    "You sit behind the desk, waiting for Val and tracing her movement on camera. The synth slows down as she moves closer, but the auto-turret doesn't respond to her movement. You try to access it but discover that you have no control over the camp's defense anymore. \"She must have taken over that system,\" you think to yourself. \"After all, it was made by the same company that made her.\" Your electronic access to the turret might be denied, but you are able to use the emergency controls in the operations room to remove it from the base's power and communication systems, effectively taking it offline. Val moves inside the base, her own blaster rifle ready. You follow her on camera as she moves towards the Rover, staring inside it for a few moments, then resumes walking towards the operations room. You quickly change your position to be on the deck behind her as she enters the room. It seems to take forever for her to move in the short corridors until the door finally opens. Val takes a few more steps until she stands above Butterfly, stands silent, then aims her blaster at Butterfly.",
+  "option1": {
+    "option": "Shoot Val",
+    "next": "s11a"
+  },
+  "option2": {
+    "option": "Hold fire and wait to see what happens",
+    "next": "s11b"
+  },
+},
+
+"s11a": {
+  "summary": "PC shoots Val",
+  "story":
+    "Your hands calm on the blaster rifle, Val's aggression was everything you needed to squeeze the trigger, sending a deadly blast that hits Val in the back, tearing a hole in it and exposing her inner machinery. A white fluid begins oozing out of her as she stumbles a few steps, then collapses next to Butterfly, which is still unconscious. You slowly advance toward the two women on the floor, kicking Val's blaster away from her. As you approach, you see her eyes, with their faint blue glow, recognize you. Her lips move as she tries to say something, but she is unable to and stops moving a few seconds afterwards. A message flashes on your helmet screen, \"Message from Val.\"",
+  "option1": {
+    "option": "You select it with your mind, expecting to see the synth's last words.",
+    "next": "s11c"
+  },
+},
+
+"s11b": {
+  "summary": "Val shoots Butterfly",
+  "story":
+    "You observe as Val aims and fires at Butterfly from point-blank range, killing her instantly. At the same time, a message flashes on your helmet screen, \"Urgent message from Val.\" Val slowly raises her hands, dropping her blaster to the side. Still aiming your blaster at her back, you quickly read through the message. \"I know you're there. I want to talk\".",
+  "option1": {
+    "option": "You breathe deeply, then shoot Val in the back.",
+    "next": "s11a"
+  },
+  "option2": {
+    "option": "\"Speak up and don't move!\"",
+    "next": "s11d"
+  },
+},
+
+"s11c": {
+  "summary": "Reading message from Val",
+  "story":
+    "\"EZ,\" the message begins. \"I know you felt you had to kill me but please listen to what I have to say. Ross 128 b has a disease, its own Red Price, just worse. I haven't found out the reason, but I do know some of the symptoms. The attached photos and videos all show Olli, Juan, Lily and Jessica with red eyes. Several hours afterwards, they went lost their mind, attacking whoever was next to them and even killing themselves. We have every reason to believe that this disease is infective. You have to transmit these details to Joint Command. You have to leave this place before you are infected yourself. Jessica is infected, and by now Doc must be as well. Leave now. I forgive you.\" You breath deeply, tracing Doc and Jessica's Rover, which is about 20 minutes away. This would be more than enough to set the Lander's course back to Salvation and leave before they could even reach the base. You hesitate as you consider your options.",
+  "option1": {
+    "option": "Board the Lander and get out of here as quickly as you can.",
+    "next": "s16a"
+  },
+  "option2": {
+    "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
+    "next": "s13"
+  },
+},
+
+"s11d": {
+  "summary": "PC speaks to Val",
+  "story":
+    "\"EZ,\" Val begins. \"I understand how you must see this now. You probably think I'm guilty about killing Juan and now Butterfly. I did it and can't hide it. The real issue is that this planet is infected. I had my suspicions after Olli, but Juan and now Butterfly made it clear. Look at these videos I'm sending to you. All three of them had the same symptoms - these reddened eyes. I don't know what caused this - yet - but it doesn't matter. The evidence shows that this disease is infective and extremely dangerous. Your life is in danger. All three of them went insane and lost their mind. Jessica is infected as well, also probably Doc, since he's been so close to her in the past few hours.\"\nYou fall silent, trying to think. Val doesn't move, waiting for you to make up your mind. \"What are you saying then?,\"  you finally ask.\n\"We have to leave this place EZ. We must get back to the Salvation and transmit our findings about what happened here. Jessica and Doc may be dead, but there's no reason more people should die in the future. Let's just leave,\" she implores you. You go through the videos she sent you through the comm link, and they seem to show at least circumstatial evidence that she is telling the truth.",
+  "option1": {
+    "option": "\"I don't like what you've done, but it was probably the only way. Let's head out together\".",
+    "next": "s16"
+  },
+  "option2": {
+    "option": "\"You're not getting on the Lander, Val. Get down on your knees.\"",
+    "next": "s12a"
+  },
+  "option3": {
+    "option": "\"You haven't convinced me, Val. Sorry,\" Shoot Val.",
+    "next": "s12b"
+  },
+},
+
+"s12a": {
+  "summary": "PC refuses to get on the Lander",
+  "story":
+    "\"I'm sorry EZ,\" Val says. \"I can't let you leave without me. As a synthetic I can't be infected and I don't want to, and will not spend the rest of my life on this planet. I also can't allow you to take Jessica or Doc. I'm afraid you'll have to decide one way or another.\"",
+  "option1": {
+    "option": "\"I'm going to keep an eye on you Val. Let's head to the Lander and get out of here.\".",
+    "next": "s16"
+  },
+  "option2": {
+    "option": "Shut Val down",
+    "next": "s12c"
+  },
+},
+
+"s12b": {
+  "summary": "PC shoots Val",
+  "story":
+      "Your hands calm on the blaster rifle, you breath deeply and squeeze the trigger, sending a deadly blast that hits Val in the back, tearing a hole in it and exposing her inner machinery. A white fluid begins oozing out of her as she stumbles a few steps, then collapses next to Butterfly, which is still unconscious. You slowly advance toward the two women on the floor, kicking Val's blaster away from her. As you approach, you see her eyes, with their faint blue glow, recognize you. Her lips move as she tries to say something, but she is unable to and stops moving a few seconds afterwards. You hope you did the right thing.",
+    "option1": {
+      "option": "Board the Lander and get out of here as quickly as you can.",
+      "next": "s16a"
+    },
+    "option2": {
+      "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
+      "next": "s13"
+    },
+},
+
+"s12c": {
+  "summary": "PC shuts down Val",
+  "story":
+      "\"I know you can decommission yourself Val. I want you to do it now.\" Val doesn't move, so you access your personal files, digging out the secret decommission codes that can shut her down in an emergency. It takes about a minute before you log into her system through your helmet screen. As you proceed to power her off, she turns and looks at you, the blue behind her eyes slowly fading. \"I'm sorry EZ,\" she says as she falls down to the ground, lifeless. Before you leave, you upload her memory core to Salvation and throw a last glance around the room.",
+    "option1": {
+      "option": "Board the Lander and get out of here as quickly as you can.",
+      "next": "s16a"
+    },
+    "option2": {
+      "option": "Prepare the Lander, take shelter in it, but contact Doc and Jessica before you take off.",
+      "next": "s13"
+    },
+},
+
+"s13": {
+  "summary": "PC contacts Jessica and Doc",
+  "story":
+      "You board the Lander and bring its systems online, readying it to leave in a few minutes notice. You then trace Jessica and Doc. They are supposed to be here any minute now. You call them over the intercom. \"Come in EZ, what's going on?\" Doc asks. You explain what you've learned from Val about the disease, leaving unasked what should happen now. Just to be sure, you lock yourself in the Lander. Doc breathes heavily. \"I could tell that something is wrong here. Jess isn't reacting nearly as strongly to the meds I've been giving her. There's something on this planet all right. EZ. Please don't leave us here EZ. Give us a chance to get back home. We can stay in the cryo-beds. That must slow the disease and give the opportunity for the doctors back home to help us. Please EZ,\" he almost begs. You look in the internal Rover cams and realize that his eyes are also red. He must feel your hesitation since he wakes up Jessica, now extremely weak. You can see how he explains to her the situation. Jessica turns and speaks feebly. \"EZ, you're second in command. Do whatever you think is best for humankind. No matter what happens to us or you, you have to transmit a report about what happened here. Don't let anyone else come here unaware like we did. I trust you.\" she finishes, then falls silent. Doc looks at the camera in front of him, knowing that you're watching."
+    "option1": {
+      "option": "\"Okay. Come to the Lander. I'll unlock it for you. Once we're up in the Salvation, you both go straight to the cyro-beds.\"",
+      "next": "s14"
+    },
+    "option1": {
+      "option": "\"Okay. Bring Butterfly from the operations room, and head towards the Lander. I'll prep it and unlock it for you. Once we're up in the Salvation, you three go straight to the cyro-beds.\"",
+      "next": "s14a"
+    },
+    "option2": {
+      "option": "\"Sorry Doc, Jess is right. I need to do what's best for us all. We can't take the risk you infect anyone else. I'm sorry. EZ out.\"",
+      "next": "s15"
+    },
+},
+
+"s14": {
+  "summary": "PC takes Jessica and Doc",
+  "story":
+      "You press a few buttons and unlock the Lander for Doc to bring Jessica in. Doc breathes heavily, nods at you, and heads towards the back of the Lander, waiting for you to take off. He buckles himself and Jessica, which moves in and out of consciousness as you finish prepping the Lander and slowly take it out to fly back towards the Salvation. You glance back every once in a while - Doc's face is gray and Jessica lost consciousness. Doc is desparately trying to keep her alive while medicating both of them to try to slow down the disease that is attacking them.\nYou finally reach the Salvation, and Doc takes Jess to the cryo-bed area. You follow them on camera and see how he locks her in, then enters the next one himself and closes the lid. You breathe in relief, then head out towards the comms deck to send another transmission to the Solar System."
+    "option1": {
+      "option": "Send last transmission from Ross 128 b",
+      "next": "s30b"
+    },
+},
+
+"s14a": {
+  "summary": "PC takes Jessica and Doc, and Butterfly",
+  "story":
+      "You press a few buttons and unlock the Lander for Doc. He first heads to the operations room and brings Butterfly, still bound and unconscious, loads her on the Rover, and then drives a few hundred meters towards the Lander. He brings Jessica in first, breathing heavily, nods at you, and heads towards the back of the Lander, where he fastens Jessica to her seat. He then does the same with Butterfly, and finally to himself. Jessica moves in and out of consciousness as you finish prepping the Lander and slowly fly it back towards the Salvation. You glance back every once in a while - Doc's face is gray and Jessica lost consciousness while Butterfly is still out. Doc is desparately trying to keep them all alive while medicating the women to slow down the disease they must be infected with.\nYou finally reach the Salvation, and Doc takes Jess first, then Butterfly to the cryo-bed area. You follow them on camera and see how he inserts both women in their cryo-beds, then enters the next one himself and closes the lid. You breathe in relief, then head out towards the comms deck to send another transmission to the Solar System."
+    "option1": {
+      "option": "Send last transmission from Ross 128 b",
+      "next": "s30d"
+    },
+},
+
+"s15": {
+  "summary": "PC leaves Jessica and Doc",
+  "story":
+      "You shake your head at Doc screaming at the screen in his Rover, shouting at you to wait for them. You listen to his pleas for a few seconds before it becomes too much and you mute him. He then begins to cry. You find it difficult to watch and turn off the video as well. You finish prepping the Lander, and begin flying it out of base just as Doc and Jess' Rover enter. Doc breaks, steps out with his rifle blaster. He aims and fires at your lander, an action that has no chance of affecting the Lander and you both know it. You stop for a minute, feeling his despair. He eventually stops firing and turns the gun to himself. A few seconds afterwards, he pulls the trigger, his head exploding instantly.\nYou tear up and set the auto-pilot towards the Salvation, which you reach in about half an hour. You dock and enter the now-empty spaceship. You feel extremely tired, but still head out towards the comms deck to send another transmission to the Solar System before you go to sleep for the years-long journey back."
+    "option1": {
+      "option": "Send last transmission from Ross 128 b",
+      "next": "s30a"
+    },
+},
+
+"s16": {
+  "summary": "PC runs away with Val",
+  "story":
+      "Val nods as you both head towards the Lander. You watch her for a few seconds, can't help by feeling that her cool, professional behavior is the right thing to do. You both finish prepping the Lander and begin taking off, closing all communication channels with the ground. You shake out of your mind the thoughts of Doc and Jess and their sorry fate, although as the Lander flies up you can see their Rover heading towards base far below you, a trail of dust in its wake. Val looks at you emphatically, squeezing your shoulder as she nods and pulls the Lander further up into the skies above Ross 128 b. You both continue silently until you reach the Salvation. You keep questioning yourself about whether you did the right thing. Unfortunately, you have no answers for yourself. Val waves at you and moves on for her last preparations before going into cyro-sleep. Neither of you want to discuss things further. You feel extremely tired after this long mission, but still head out towards the comms deck to send another transmission to the Solar System before you go to sleep for the years-long journey back. On your way, a notification for an incoming message from Jessica comes in.",
+    "option1": {
+      "option": "Delete the message and send the last transmission from Ross 128 b",
+      "next": "s30c"
+    },
+    "option2": {
+      "option": "Read the message before sending the last transmission from Ross 128 b",
+      "next": "16b"
+    },
+},
+
+"s16a": {
+  "summary": "PC runs away without Val",
+  "story":
+      "You are resolute as you head towards the Lander. Someone must survive and relay the message back to the Solar System. You turn on the Lander's engines, and begin the take off sequence. Hesitating for a second, you close all communication channels with the ground. You must not hesitate, you tell yourself. You shake out of your mind the thoughts of Doc and Jess and their sorry fate, although as you pilot the Lander up you can see their Rover heading towards base far below you, a trail of dust in its wake. You pull the Lander further up into the skies above Ross 128 b, continuing in silence until you reach the Salvation. You keep questioning yourself about whether you did the right thing, but find no answers. You feel extremely tired after this long mission, but still head out towards the comms deck to send another transmission to the Solar System before you go to sleep for the years-long journey back. On your way, a notification for an incoming message from Jessica comes in.",
+  "option1": {
+    "option": "Delete the message and send the last transmission from Ross 128 b",
+    "next": "s30c"
+    },
+  "option2": {
+    "option": "Read the message before sending the last transmission from Ross 128 b",
+    "next": "16c"
+    },
+},
+
+"s16b": {
+  "summary": "Final message from Jessica and Doc, PC with Val",
+  "story":
+      "Afraid, you open Jessica's message. It contains the medical data from her and Doc, alongside Doc's report on the symptoms he uncovered. \"EZ,\" she opens in a hoarse voice. It is clear that she has no energy left. \"You've made a hard decision and chose to leave us here. Doc and me are dying. We figured out that's why you left. It disappoints me beyond belief that you did not even tell us why you left us here and ran with that traitor synth bitch. How could you do it to us?!\" She breathes in, and falls silent for a few seconds, then makes another immense effort to sound coherent. \"This is bigger than all of us however. We're sending you our medical details so you can pass it on the scientists back home. Don't allow anyone else to come to this forsaken planet. Jessica out.\" The screen goes dark and you continue to stare at it for a few moments before continuing to send the transmission.",
+  "option1": {
+    "option": "Proceed to send the last transmission from Ross 128 b",
+    "next": "s30c"
+    },
+},
+
+"s16c": {
+  "summary": "Final message from Jessica and Doc, PC without Val",
+  "story":
+      "Afraid, you open Jessica's message. It contains the medical data from her and Doc, alongside Doc's report on the symptoms he uncovered. \"EZ,\" she opens in a hoarse voice. It is clear that she has no energy left. \"You've made a hard decision and chose to leave us here. Doc and me are dying. We figured out that's why you left. It disappoints me beyond belief that you did not even tell us why you left us here, but I guess I can understand it. This is bigger than all of us however. We're sending you our medical details so you can pass it on the scientists back home. Don't allow anyone else to come to this forsaken planet. Jessica out.\" The screen goes dark and you continue to stare at it for a few moments before continuing to send the transmission.",
+  "option1": {
+    "option": "Proceed to send the last transmission from Ross 128 b",
+    "next": "s30c"
+    },
+},
+
+"s30a": {
+  "summary": "Final transmission, PC alone",
+  "story":
+      "You align the instruments and speak your message to the transcripter. \"Communications Officer EZ reporting from abroad the Salvation in orbit around Ross 128 b. Our mission, to find humanity a new home among the stars, has failed. Planet Ross 128 b is infested with subterrestrial alien life forms both large and small. We have understood very little of the forces at play in this planet, but the evidence we have seen suggests that at least some of the life forms here are sentient to an extent we have not encountered before. We were not able to deduce whether these life forms are hostile to us, but all members of our crew have succumbed to a mysterious virulent illness that drove them insane in a matter of hours, turning us against one another and forcing us to forsake our humanity. Perhaps we have encountered the Red Price of this planet. Everyone else is dead. Whether I myself have the disease as well is unclear. The medical information of the crew members, alongside our logs, are attached to this transmission. Our accompanying synthetic, VA-093274, also known as Valkyrie, has betrayed our trust, relaying top-secret information to an unknown third party. She, together with most of our equipment, remains on the surface of Ross 128 b. This is going to be the last transmission from the orbit of Ross 128 b. I am setting a course towards Mars and entering cryo-sleep. EZ Out.\"",
+  "option1": {
+    "option": "Credits",
+    "next": "credits"
+    },
+},
+
+"s30b": {
+  "summary": "Final transmission, PC with Doc and Jess",
+  "story":
+      "You align the instruments and speak your message to the transcripter. \"Communications Officer EZ reporting from abroad the Salvation in orbit around Ross 128 b. Our mission, to find humanity a new home among the stars, has failed. Planet Ross 128 b is infested with subterrestrial alien life forms both large and small. We have understood very little of the forces at play in this planet, but the evidence we have seen suggests that at least some of the life forms here are sentient to an extent we have not encountered before. We were not able to deduce whether these life forms are hostile to us, but all members of our crew have succumbed to a mysterious virulent illness that began driving them insane in a matter of hours, turning us against one another. Perhaps we have encountered the Red Price of this planet. On board with me are Commander Jessica Anderson, and Medical Officer Ethan Thompson, both of which have exhibited symptoms of the disease and are currently in cyro-sleep. Everyone else is dead. Whether I myself have the disease as well is unclear. The medical information of the crew members, alongside our logs, are attached to this transmission. Our accompanying synthetic, VA-093274, also known as Valkyrie, has betrayed our trust, relaying top-secret information to an unknown third party. She, together with most of our equipment, remains on the surface of Ross 128 b. This is going to be the last transmission from the orbit of Ross 128 b. I am setting a course towards Mars and entering cryo-sleep. EZ Out.\"",
+  "option1": {
+    "option": "Credits",
+    "next": "credits"
+    },
+},
+
+"s30c": {
+  "summary": "Final transmission, PC with Val",
+  "story":
+      "You align the instruments and speak your message to the transcripter. \"Communications Officer EZ reporting from abroad the Salvation in orbit around Ross 128 b. Our mission, to find humanity a new home among the stars, has failed. Planet Ross 128 b is infested with subterrestrial alien life forms both large and small. We have understood very little of the forces at play in this planet, but the evidence we have seen suggests that at least some of the life forms here are sentient to an extent we have not encountered before. We were not able to deduce whether these life forms are hostile to us, but all members of our crew have succumbed to a mysterious virulent illness that began driving them insane in a matter of hours, turning us against one another. Perhaps we have encountered the Red Price of this planet. On board with me is our accompanying synthetic, VA-093274, also known as Valkyrie, who is currently in cyro-sleep. Everyone else is dead. Whether I myself have the disease as well is unclear. The medical information of the crew members, alongside our logs, are attached to this transmission. Most of our equipment remains on the surface of Ross 128 b. This is going to be the last transmission from the orbit of Ross 128 b. I am setting a course towards Mars and entering cryo-sleep. EZ Out.\"",
+  "option1": {
+    "option": "Credits",
+    "next": "credits"
+    },
+},
+
+"s30d": {
+  "summary": "Final transmission, PC with Doc and Jess and Butterfly",
+  "story":
+      "You align the instruments and speak your message to the transcripter. \"Communications Officer EZ reporting from abroad the Salvation in orbit around Ross 128 b. Our mission, to find humanity a new home among the stars, has failed. Planet Ross 128 b is infested with subterrestrial alien life forms both large and small. We have understood very little of the forces at play in this planet, but the evidence we have seen suggests that at least some of the life forms here are sentient to an extent we have not encountered before. We were not able to deduce whether these life forms are hostile to us, but all members of our crew have succumbed to a mysterious virulent illness that began driving them insane in a matter of hours, turning us against one another. Perhaps we have encountered the Red Price of this planet. On board with me are Commander Jessica Anderson, Science Officer Lily Pierce, and Medical Officer Ethan Thompson, all of which have exhibited symptoms of the disease and are in cyro-sleep. Everyone else is dead. Whether I myself have the disease as well is unclear. The medical information of the crew members, alongside our logs, are attached to this transmission. Our accompanying synthetic, VA-093274, also known as Valkyrie, has betrayed our trust, relaying top-secret information to an unknown third party. She, together with most of our equipment, remains on the surface of Ross 128 b. This is going to be the last transmission from the orbit of Ross 128 b. I am setting a course towards Mars and entering cryo-sleep. EZ Out.\"",
+  "option1": {
+    "option": "Credits",
+    "next": "credits"
+    },
+},
 }
