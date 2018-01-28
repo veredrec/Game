@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+.wrapper {
+  background: url('./assets/images//opening.jpg');
+  opacity: 0.5;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+.logo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 4rem;
+}
+.start {
+  border: none;
+  background-color: #0a1e64;
+  font-size: 1.7rem;
+  color: #eaedf8;
+  border-radius: 1.8rem;
+  font-family: 'Cabin', sans-serif;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  opacity: 0.4;
+}
+.start:hover {
+  background-color: #d54963;
+  color: #dbd5d6;
+  opacity: 0.7;
+}
+.start:focus {
+  outline: 0;
+}
+.main {
+  height: 90vh;
+}
+.footer {
+  height: 10vh;
+}
+.footer-text {
+  color: #0a1e64;
+}
+.footer-text a {
+  color: #0a1e64;
+}
+
+/* CREADITS PAGE */
+.main-credits {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.logo-credits {
+  width: 250px;
+  padding: 2rem;
+}
+.wrapper-credits {
+  background: url('./assets/images//sky-dark.jpg');
+  opacity: 0.5;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+.credits {
+  color: #343539;
+}
+.text-code {
+  font-size: 1rem;
+}
