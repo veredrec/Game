@@ -470,7 +470,6 @@
   "story":
     "Butterfly shyly raises her hand. \"I'll come with you,\" she says. Jessica seems relieved that her plan receives the support of her subordinates. \"Great,\" Jessica smiles. \"Everyone else, stay here and stay alert. Val, keep manning the tower. EZ, find us the best place to investigate\".
     \"Right away, captain,\" you report, uncertain whether she expected you to volunteer. You triangule Butterfly's 3D model with the communication instruments you're more proficient in using, and start working tracing the area with a sonar-based algorithm. \"The line seems to end here,\" you gestures at a point on the map, then zoom in to show a cleft between two larger rocks. \"This seems like the best place to start checking. The closest place where something might have disappeared in.\"
-
     Jessica watches attentively, then downloads the map to her own NetPad. \"Makes sense. Good job EZ, we’re on it then. We’ll take the sensors and upload the data here, make sure to analyze it for hints of whatever is going on here.\"",
   "option1": {
     "option": "\"Sure thing, Jessica\"" ,
@@ -504,7 +503,6 @@
   "summary": "Second mission (no PC) - Olli dies",
   "story":
     "The photos show what is clearly a hall built by some alien civilization. The picture comes out in color, the internal structures of some kind - they almost seem like machines. There is no immediate sign of life, but you have no time to contemplate this since Doc’s voice comes across on the intercom.
-
     \"Captain, Butterfly, is Olli okay? He’s not responding and I can’t access his vital signs.\"
     \"Olli!\", Jessica says, and begins moving to the Rover. You quickly switch to the internal Rover cam to find Olli's lifeless body lying down on the floor, head down.",
   "option1": {
@@ -517,7 +515,6 @@
   "summary": "Second mission (no PC) - Olli dead, return to base",
   "story":
     "\"Shit!\" Jessica exclaims. \"Red Alert everyone. Olli is down, I repeat, Olli is down. We’re heading back to base now. Prepare for anything.\"
-
     You quickly select the past 20 minutes and record all the feed from the Rover, and begin to run tests to figure out what went wrong. You glance at the current feed, observing that Butterfly sits frozen on her chair trying to avoid looking at Olli's corpse in front of her. \"Doc, prepare the medical lab. I want to know what went wrong here. as quickly as possible. We'll be there in 20 min top. EZ, Hero, you'll meet us in the operation room. Val, stay on the tower.\" \n
     After what seems to be forever, Jessica parks the Rover next to the base medbay, and a few moments later enters the operation room.",
   "option1": {
