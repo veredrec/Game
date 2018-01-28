@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('./sky-blue.jpg');
+  background: url('./assets/start.jpeg');
   background-size: cover;
   font-family: 'Cabin', sans-serif;
   text-align: center;
@@ -10,12 +10,32 @@ body {
 .title {
   color: #393c3b;
   text-align: left;
-  margin: 3rem;
+  margin: 1rem;
 }
 .story {
-  margin: 3rem;
   background-color: #e3f1ee;
-  padding: 4rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  width: 70%;
+  display: block;
+  margin: 0.5rem auto;
+  height: 75vh;
+}
+.main-text {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  height: 50vh;
+}
+.options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.option {
+  color: #003366;
+  font-weight: 600;
+  padding: 0.2rem;
+  text-decoration: none;
 }
