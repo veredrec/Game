@@ -770,11 +770,11 @@
 			"option": "\"Okay. Come to the Lander. I'll unlock it for you. Once we're up in the Salvation, you both go straight to the cyro-beds.\"",
 			"next": "s14"
 		},
-		"option1": {
+		"option2": {
 			"option": "\"Okay. Bring Butterfly from the operations room, and head towards the Lander. I'll prep it and unlock it for you. Once we're up in the Salvation, you three go straight to the cyro-beds.\"",
 			"next": "s14a"
 		},
-		"option2": {
+		"option3": {
 			"option": "\"Sorry Doc, Jess is right. I need to do what's best for us all. We can't take the risk you infect anyone else. I'm sorry. EZ out.\"",
 			"next": "s15"
 		}
