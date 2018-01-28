@@ -1,6 +1,7 @@
 var currentText;
 var chosenOption;
 var nextStory;
+var text;
 var dataUrl =
   'https://raw.githubusercontent.com/veredrec/Game/master/text.json';
 function loadData(callback) {
@@ -8,8 +9,9 @@ function loadData(callback) {
     .then(function(data) {
       return data.json();
     })
-    .then(function(text) {
-      currentText = text.a0; // intro story from text data
+    .then(function(data) {
+      text = data;
+      currentText = data.a00; // intro story from text data
       $('#mainText').text(currentText.story);
       $('#option1').text(currentText.option1.option);
     })
@@ -23,15 +25,24 @@ loadData();
 function populateData(text) {
   $('#mainText').text(text.story);
   $('#option1').text(text.option1.option);
-  $('#option2').text(text.option2.option);
-  $('#option3').text(text.option3.option);
-  $('#option4').text(text.option4.option);
+  if (text.option2) {
+    $('#option2').text(text.option2.option);
+  }
+  if (text.option3) {
+    $('#option3').text(text.option3.option);
+  }
+  if (text.option4) {
+    $('#option4').text(text.option4.option);
+  }
 }
 
 $('#option1').click(function() {
   chosenOption = this.id;
+  console.log(chosenOption);
   nextStory = currentText[chosenOption].next;
+  console.log(nextStory);
   currentText = text[nextStory];
+  console.log(currentText);
   populateData(currentText);
 });
 
