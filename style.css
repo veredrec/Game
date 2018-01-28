@@ -1,28 +1,44 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('./assets/start.jpeg');
+  background: url('./assets/opening.jpg');
   background-size: cover;
   font-family: 'Cabin', sans-serif;
-  text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
-.title {
-  color: #393c3b;
-  text-align: left;
-  margin: 1rem;
+.logo {
+  width: 100px;
+  margin: 2rem;
+}
+.wrapper {
+  display: block;
+  position: relative;
+  height: 75vh;
+  width: 70%;
+  padding: 1.5rem;
+  margin: 0.5rem auto;
+  z-index: 1;
 }
 .story {
-  background-color: #e3f1ee;
-  padding: 2rem;
+  background-color: #404546;
+  opacity: 0.6;
+  display: block;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1.5rem;
   font-size: 1.2rem;
   line-height: 1.8rem;
   width: 70%;
-  display: block;
-  margin: 0.5rem auto;
   height: 75vh;
+  margin: 0.5rem auto;
+  z-index: -1;
 }
-.main-text {
+.text {
+  color: #dfe2e3;
   width: 80%;
   display: block;
   margin: 0 auto;
@@ -30,12 +46,14 @@ body {
 }
 .options-list {
   list-style-type: none;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
 .option {
-  color: #003366;
+  color: #54eb76;
   font-weight: 600;
   padding: 0.2rem;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-position: under;
 }
