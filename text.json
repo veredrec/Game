@@ -94,7 +94,7 @@
 			"option": "\"We're done, commander!\"",
 			"next": "s0j"
 		}
-  }
+  },
 
 	"s0i": {
 		"summary": "Lander landing",
