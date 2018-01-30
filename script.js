@@ -5,13 +5,19 @@ var text;
 var dataUrl =
   'https://raw.githubusercontent.com/veredrec/Game/master/text.json';
 
-$(document).ready(function() {
-  var gameMusic = new Audio('./assets/audio/beginning.mp3');
+function playBackground() {
+  console.log('starting to count time');
+  var gameMusic = new Audio('./assets/audio/game.mp3');
+  gameMusic.volume = 0.2;
   gameMusic.play();
-});
+}
 
 // start the game
 $('#start').click(function() {
+  var startMusic = new Audio('./assets/audio/beginning.mp3'); // opening music
+  startMusic.volume = 0.2;
+  startMusic.play();
+  setTimeout(playBackground, 75000); // calling second part of music
   $('#intro').toggleClass('hide');
   $('#main').toggleClass('hide');
 });
@@ -44,6 +50,7 @@ function checkStoryEnding(text) {
 }
 
 // takes the data from the text file and populate the text and options on the page
+// if an option does not exists - removed the previous option
 function populateData(text) {
   $('#mainText').text(text.story);
   checkStoryEnding(text.story);
@@ -76,8 +83,6 @@ function checkEnd(nextStory) {
 
 // Event listeners for every option
 $('#option1').click(function() {
-  var gameMusic = new Audio('./assets/audio/game.mp3');
-  gameMusic.play();
   chosenOption = this.id;
   nextStory = currentText[chosenOption].next;
   checkEnd(nextStory);
