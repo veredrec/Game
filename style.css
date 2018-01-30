@@ -2,8 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: url('./assets/images/opening.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Cabin', sans-serif;
   font-size: 14px;
+  height: 100vh;
 }
 .main {
   position: absolute;
@@ -49,6 +52,7 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 /* INTRO SECTION */
 .intro {
@@ -89,4 +93,21 @@ body {
 
 .hide {
   display: none;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 800px) {
+  .text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .story,
+  .wrapper {
+    height: 85vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  body {
+    background-color: #41649c;
+  }
 }
