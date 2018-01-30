@@ -860,6 +860,24 @@
 		}
 	},
 
+	"s17": {
+		"summary": "PC leads team to find alien",
+		"story": "Doc sounds discouraged from your answer. \"I understand, EZ. I'll try to keep things under control here.\" You relay the news to Val and Butterfly. Val looks apprehensive although you always had difficulties in understanding her. Butterfly seems shaken. Since you worry about her holding her own in whatever you encounter ahead, you order Val to lead and Butterfly to cover the rear. The three of you continue towards the artificial chamber. You take a short breath before, re-examine the drone's footage, then signal to Val to move in. She takes several quick steps to enter the room, signalling you to follow her.",
+		"option1": {
+			"option": "Follow Val and prepare yourself for anything you might encounter.",
+			"next": "s17a"
+		}
+	},
+
+	"s17a": {
+		"summary": "Team in artificial hall, emergency call from Doc",
+		"story": "You raise your blaster, moving into the artifical hall while keeping an eye on the drone's constant reporting from its cameras and sensors, which show nothing moving in the room. You scan the room and realize it is empty. Whatever was here - if the vague shadow you saw on the drone feed was indeed a living thing - must have moved deeper into the caverns. Val walks around the room, checking it for hostiles, while you allow yourself a few seconds to marvel at the alien architecture. Sets of green arches cover the ceiling, ending in sharpened edges that may have been used to hang something from above. The walls dark green in color and are serrated with deep furrows. Something in the room is disconcerting, but your thoughts about what exactly it is are cut short by Doc's message, this time on the shared communications channel. He is panting hysterically. \"I need help here. ASAP. Juan just woke up and attacked me again. I couldn't stop him with the stun blast and had to neutralize him. I think he's dead.\" You turn to your squadmates. \"We must go help him and Jessica before we lose anyone else.\" They nod in agreement.",
+		"option1": {
+			"option": "Signal to Val to lead the way and follow her.",
+			"next": "s17c"
+		}
+	},
+
 	"s30a": {
 		"summary": "Final transmission, PC alone",
 		"story": "You align the instruments and speak your message to the transcripter. \"Communications Officer EZ reporting from abroad the Salvation in orbit around Ross 128 b. Our mission, to find humanity a new home among the stars, has failed. Planet Ross 128 b is infested with subterrestrial alien life forms both large and small. We have understood very little of the forces at play in this planet, but the evidence we have seen suggests that at least some of the life forms here are sentient to an extent we have not encountered before. We were not able to deduce whether these life forms are hostile to us, but all members of our crew have succumbed to a mysterious virulent illness that drove them insane in a matter of hours, turning us against one another and forcing us to forsake our humanity. Perhaps we have encountered the Red Price of this planet. Everyone else is dead. Whether I myself have the disease as well is unclear. The medical information of the crew members, alongside our logs, are attached to this transmission. Our accompanying synthetic, VA-093274, also known as Valkyrie, has betrayed our trust, relaying top-secret information to an unknown third party. She, together with most of our equipment, remains on the surface of Ross 128 b. This is going to be the last transmission from the orbit of Ross 128 b. I am setting a course towards Mars and entering cryo-sleep. EZ Out.\"",
