@@ -874,7 +874,34 @@
 		"story": "You raise your blaster, moving into the artifical hall while keeping an eye on the drone's constant reporting from its cameras and sensors, which show nothing moving in the room. You scan the room and realize it is empty. Whatever was here - if the vague shadow you saw on the drone feed was indeed a living thing - must have moved deeper into the caverns. Val walks around the room, checking it for hostiles, while you allow yourself a few seconds to marvel at the alien architecture. Sets of green arches cover the ceiling, ending in sharpened edges that may have been used to hang something from above. The walls dark green in color and are serrated with deep furrows. Something in the room is disconcerting, but your thoughts about what exactly it is are cut short by Doc's message, this time on the shared communications channel. He is panting hysterically. \"I need help here. ASAP. Juan just woke up and attacked me again. I couldn't stop him with the stun blast and had to neutralize him. I think he's dead.\" You turn to your squadmates. \"We must go help him and Jessica before we lose anyone else.\" They nod in agreement.",
 		"option1": {
 			"option": "Signal to Val to lead the way and follow her.",
-			"next": "s17c"
+			"next": "s18"
+		}
+	},
+
+	"s18": {
+		"summary": "Team returning to check on Doc, Juan dead",
+		"story": "Val nods and moves out, first again. A few minutes later you reach Doc, who is sitting next to Jessica who is lying down on the floor. She is panting, and it's obvious she has been hit several times by Juan, who's lying on the floor face down a few feet away. Doc looks up at you. \"One of her falls tore down her suit,\" he gestures to Jessica's hip, where a long cut was covered with Doc's seal-it foam, meant to prevent hypothermia and decompression in such cases. \"We should take care of her in med bay. I have more medical supplies in the Rover for the next hour or so, but after that we must bring her back to the base.\" You look around. Val is examining Juan's face and corpse, shaking her head at you to signal that he is indeed dead. Butterfly is sitting on a nearby rock, clearly exhausted from the mission so far. Jessica looks up weakly, opening her mouth as if to speak, but Doc hushes her. You realize that she is clearly incapable at the moment - which means you are now in command. You realize what has to be done. \"Okay, let's head out. We'll take turns carrying Jessica up. Val and Butterfly, Doc and myself. We'll replace each other every 3 minutes. We'll have to leave Juan Let's go!\" The others nod in agreement. They all clearly want to get out of this place.",
+		"option1": {
+			"option": "Start carrying Jessica together with Doc.",
+			"next": "s18a"
+		}
+	},
+
+	"s18a": {
+		"summary": "Carrying Jessica up",
+		"story": "The next half hour or so seems to get more difficult with every step you climb back up towards the surface. You feel as if your breath burns each step of the way you carry Jessica, while her grunts reveal that the ordeal is just as painful for her. When you switch with Val and Butterfly, the only thing you can think of is that it's going to be your turn again. About 200 feet before the cleft, it's your turn again. You take Jessica's limp body from Val and prepare yourself for the final push. You eventually make it, but as you all collapse on the planet's surface, breathless, you realize Val is missing. You shake your head in disbelief. \"Did anyone see Val?! Where is she?\" Doc and Butterfly look at each other then back at you, having no answer. They are both completely exhausted, so you prepare to go into the cave again. Jessica, however, tries to stop you, feebly lifing her arm. \"You don't need to return there, the synthetic bitch betrayed us, just like I knew she would.\" You try to disregard Jessica's words, hoping she said them as part of her delusion. When you look into her eyes, however, she seems conscious and fully aware of what she just said.",
+		"option1": {
+			"option": "\"What makes you so sure of this?\"",
+			"next": "s18b"
+		}
+	},
+
+	"s18b": {
+		"summary": "radio evidence against Val",
+		"story": "Jessica winces, \"Look at this,\" she says, sending you a short video of Val setting up the antenna and installing a piece of software you don't know. You quickly login and check the general time in which she operated the antenna - and realize that indeed Val has been sending very small and encrypted bits of data with you. Their size, only a few kilobytes in most cases, was too small for you to notice, but now that you think of it you realize that it is probably information about your mission, and to an unidentified recipient other than Joint Command. You look at Jessica, who is exhausted and tries to gesture towards the Rover. \"She must be trying to get to the base through another of these holes. You have to go now!\" she beckons you. \"Take Butterfly with you and stop her! Let's not all die on this planet!\"",
+		"option1": {
+			"option": "Get in the Rover and drive back to the base camp.",
+			"next": "s7"
 		}
 	},
 
