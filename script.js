@@ -2,20 +2,21 @@ var currentText;
 var chosenOption;
 var nextStory;
 var text;
+var startMusic = new Audio('./assets/audio/beginning.mp3'); // opening music
+var gameMusic = new Audio('./assets/audio/game.mp3'); // background music for most of the game
+var endingMusic = new Audio('./assets/audio/ending.mp3'); // ending music
 var dataUrl =
   'https://raw.githubusercontent.com/veredrec/Game/master/text.json';
 
 function playBackground() {
   console.log('starting to count time');
-  var gameMusic = new Audio('./assets/audio/game.mp3');
-  gameMusic.volume = 0.2;
+  gameMusic.volume = 0.4;
   gameMusic.play();
 }
 
 // start the game
 $('#start').click(function() {
-  var startMusic = new Audio('./assets/audio/beginning.mp3'); // opening music
-  startMusic.volume = 0.2;
+  startMusic.volume = 0.4;
   startMusic.play();
   setTimeout(playBackground, 75000); // calling second part of music
   $('#intro').toggleClass('hide');
@@ -44,7 +45,9 @@ loadData();
 // checks if story got to last moments - if yes, plays the ending music
 function checkStoryEnding(text) {
   if (text.indexOf('Communications Officer EZ reporting') >= 0) {
-    var endingMusic = new Audio('./assets/audio/ending.mp3');
+    gameMusic.pause();
+    gameMusic.currentTime = 0;
+    endingMusic.volume = 0.4;
     endingMusic.play();
   }
 }
@@ -73,21 +76,22 @@ function populateData(text) {
 }
 
 // checks if this is the last part. If yes, redirects to credits page
-function checkEnd(nextStory) {
-  if (!nextStory) {
-    $('#option1').click(function() {
-      window.location.href = 'credits.html';
-    });
-  }
+function endGame() {
+  $('#option1').click(function() {
+    window.location.href = 'credits.html';
+  });
 }
 
 // Event listeners for every option
 $('#option1').click(function() {
   chosenOption = this.id;
   nextStory = currentText[chosenOption].next;
-  checkEnd(nextStory);
-  currentText = text[nextStory];
-  populateData(currentText);
+  if (nextStory === 'credits') {
+    endGame();
+  } else {
+    currentText = text[nextStory];
+    populateData(currentText);
+  }
 });
 
 $('#option2').click(function() {
